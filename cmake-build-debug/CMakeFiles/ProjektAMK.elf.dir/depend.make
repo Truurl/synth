@@ -801,6 +801,9 @@ CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usa
 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj: ../Inc/stm32f4xx_hal_conf.h
 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c
 
+CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj: ../Inc/delay.h
+CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj: ../Src/delay.c
+
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
@@ -836,10 +839,14 @@ CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Drivers/STM32F4xx_HAL_Driver/In
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h
+CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Inc/delay.h
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Inc/main.h
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Inc/stm32f4xx_hal_conf.h
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Inc/uart.h
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Src/main.c
+
+CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj: ../Inc/ring_buffer.h
+CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj: ../Src/ring_buffer.c
 
 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
@@ -997,6 +1004,8 @@ CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/In
 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h
+CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: ../Inc/delay.h
+CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: ../Inc/ring_buffer.h
 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: ../Inc/stm32f4xx_hal_conf.h
 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: ../Inc/uart.h
 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: ../Src/uart.c

@@ -2,23 +2,39 @@
 // Created by Albert on 23.04.2020.
 //
 #include <stdbool.h>
+#include <string.h>
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_uart.h"
 #include "uart.h"
+#include "ring_buffer.h"
+#include "delay.h"
+
+// UART transmit buffer descriptor
+static RingBuffer UART_RingBuffer_Tx;
+// UART transmit buffer memory pool
+static char RingBufferData_Tx[1024];
+
+// UART receive buffer descriptor
+static RingBuffer UART_RingBuffer_Rx;
+// UART receive buffer memory pool
+static char RingBufferData_Rx[1024];
+
+
+static UART_HandleTypeDef uart;
 
 bool UART_PutChar(char c)
 {
 
-    __disable_irq();
-    if (RingBuffer_PutChar(&USART_RingBuffer_Tx, c))
+    //__disable_irq();
+    if (RingBuffer_PutChar(&UART_RingBuffer_Tx, c))
     {
-                __USART_ENABLE_IT(&UartHandle, USART_IT_TXE);
-        CORE_ExitCriticalSection();
+        __HAL_UART_ENABLE_IT(&uart, UART_IT_TXE);
+        //__enable_irq();
         return true;
     }
     else
     {
-        __enable_irq();
+        //__enable_irq();
         return false;
     }
 }
@@ -29,9 +45,9 @@ size_t UART_WriteData(const void* data, size_t dataSize)
     char* temp = (char*) data;
     for (; i<dataSize; i++)
     {
-        if (RingBuffer_PutChar(&USART_RingBuffer_Tx, temp[i]))
+        if (RingBuffer_PutChar(&UART_RingBuffer_Tx, temp[i]))
         {
-                    __USART_ENABLE_IT(&UartHandle, USART_IT_TXE);
+            __HAL_UART_ENABLE_IT(&uart, UART_IT_TXE);
         }
         else
         {
@@ -44,22 +60,21 @@ size_t UART_WriteData(const void* data, size_t dataSize)
 size_t UART_WriteString(const char* string)
 {
 
-    return USART_WriteData(string, strlen(string));
+    return UART_WriteData(string, strlen(string));
 
 }
 
 bool UART_GetChar(char* c)
 {
 
-    __disable_irq();
-    CORE_EnterCriticalSection();
-    if (!RingBuffer_GetChar(&USART_RingBuffer_Rx, c))
+    //__disable_irq();
+    if (!RingBuffer_GetChar(&UART_RingBuffer_Rx, c))
     {
-        __enable_irq();
+        //__enable_irq();
         return false;
     }
 
-    __disable_irq();
+    //__disable_irq();
     return true;
 }
 
@@ -69,57 +84,57 @@ size_t UART_ReadData(char* data, size_t maxSize)
 
     for (; i<maxSize; ++i)
     {
-        if (!RingBuffer_GetChar(&USART_RingBuffer_Rx, &data[i]))
+        if (!RingBuffer_GetChar(&UART_RingBuffer_Rx, &data[i]))
         {
             return i;
         }
     }
 }
 
-// USART Interrupt Service Routine (ISR)
-void USARTx_IRQHandler(void)
+// UART Interrupt Service Routine (ISR)
+void UART4_IRQHandler(void)
 {
 
-    if (__HAL_USART_GET_FLAG(&UartHandle, USART_FLAG_RXNE))
+    if (__HAL_UART_GET_FLAG(&uart, UART_FLAG_RXNE))
     {
         // the RXNE interrupt has occurred
-        if (__HAL_USART_GET_IT_SOURCE(&UartHandle, USART_IT_RXNE))
+        if (__HAL_UART_GET_IT_SOURCE(&uart, UART_IT_RXNE))
         {
             // the RXNE interrupt is enabled
-
-            // TODO: read the received character and place it in the receive ring buffer
             char c;
-            c = USARTx->DR;
-            RingBuffer_PutChar(&USART_RingBuffer_Rx, c);
+            c = UART4->DR;
+            RingBuffer_PutChar(&UART_RingBuffer_Rx, c);
         }
     }
 
-    if (__HAL_USART_GET_FLAG(&UartHandle, USART_FLAG_TXE))
+    if (__HAL_UART_GET_FLAG(&uart, UART_FLAG_TXE))
     {
         // the TXE interrupt has occurred
-        if (__HAL_USART_GET_IT_SOURCE(&UartHandle, USART_IT_TXE))
+        if (__HAL_UART_GET_IT_SOURCE(&uart, UART_IT_TXE))
         {
             // the TXE interrupt is enabled
-
-            // TODO: get a character from the transmit ring buffer and send it via UART
-
             char c;
-            if (!RingBuffer_GetChar(&USART_RingBuffer_Tx, &c))
+            if (!RingBuffer_GetChar(&UART_RingBuffer_Tx, &c))
             {
-                        __USART_DISABLE_IT(&UartHandle, USART_IT_TXE);
+                __HAL_UART_DISABLE_IT(&uart,UART_IT_TXE);
             }
             else
             {
-                USARTx->DR = c;
+                UART4->DR = c;
             }
         }
     }
+    HAL_NVIC_ClearPendingIRQ(UART4_IRQn);
 }
 
 bool UARTInit(void)
 {
+    // initialize ring buffers
+    RingBuffer_Init(&UART_RingBuffer_Tx, RingBufferData_Tx, sizeof(RingBufferData_Tx));
+    RingBuffer_Init(&UART_RingBuffer_Rx, RingBufferData_Rx, sizeof(RingBufferData_Rx));
+
     //inicjalizacja pinow odpowiedzialnych za UART
-            __GPIOA_CLK_ENABLE();
+    __GPIOA_CLK_ENABLE();
     GPIO_InitTypeDef gpio;
     gpio.Pin = GPIO_PIN_0 | GPIO_PIN_1;
     gpio.Mode = GPIO_MODE_AF_PP;
@@ -129,9 +144,8 @@ bool UARTInit(void)
     HAL_GPIO_Init(GPIOA, &gpio);
 
     //inicjalizacjia UART
-            __UART4_CLK_ENABLE();
+    __UART4_CLK_ENABLE();
 
-    UART_HandleTypeDef uart;
     uart.Init.BaudRate = 115200;
     uart.Init.WordLength = UART_WORDLENGTH_8B;
     uart.Init.Mode = UART_MODE_TX_RX;
@@ -143,14 +157,14 @@ bool UARTInit(void)
 
 
     //HAL_UART_MspInit(&uart);
-    if (HAL_OK!=HAL_UART_Init(&uart))
+    if(HAL_OK != HAL_UART_Init(&uart))
     {
         return false;
     }
 
     //właczenie przerwań od RX
     __HAL_UART_ENABLE_IT(&uart, UART_IT_RXNE);
-    HAL_NVIC_SetPriority(UART4_IRQn, 4, 0);
+    HAL_NVIC_SetPriority(UART4_IRQn, 1, 0);
     HAL_NVIC_EnableIRQ(UART4_IRQn);
 
     return true;

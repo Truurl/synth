@@ -2,21 +2,14 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include "stm32f4xx_hal.h"
+#include "stm32f4xx_hal_adc.h"
+#include "stm32f4xx_hal_adc_ex.h"
 #include "uart.h"
-
+#include "delay.h"
 
 
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-
-volatile uint32_t ticks;
-
-
-void SysTick_Handler(void)
-{
-    ++ticks;
-    //HAL_IncTick();
-}
 
 void LED_Init() {
 
@@ -29,14 +22,21 @@ void LED_Init() {
     HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 }
 
-void Delay(uint32_t miliseconds)
+void ADC_Init(void)
 {
-    ticks = 0;
-    uint32_t delay = ticks + miliseconds;
-    while ( (int32_t)(delay - ticks) >= 0)
-    {
-        ;
-    }
+
+    __GPIOC_CLK_ENABLE();
+    GPIO_InitTypeDef gpio;
+    gpio.Pin = GPIO_PIN_1;
+    gpio.Mode = GPIO_MODE_ANALOG;
+    HAL_GPIO_Init(GPIOC, &gpio);
+
+    __ADC_CLK_ENABLE();
+    ADC_HandleTypeDef adc;
+    adc.Init.Resolution = ADC_RESOLUTION12b;
+    adc.Init.ClockPrescaler = ADC_CLOCKPRESCALER_PCLK_DIV8;
+    adc.Init.DataAlign = ADC_DATAALIGN_RIGHT;
+    adc.Init.ContinuousConvMode = ENABLE;
 }
 
 
@@ -56,8 +56,8 @@ int main(void)
   while (1)
   {
     HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_13);
-    UART_WriteString("Hello world!");
-    Delay(1000);
+    //UART_WriteString("\n\rHello World\n\r");
+    Delay(100);
   }
 
 }

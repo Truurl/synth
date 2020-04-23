@@ -226,9 +226,21 @@ stm32f4xx_hal_def.h
 stm32f4xx_hal_def.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 
+../Inc/delay.h
+stdint.h
+-
+
 ../Inc/main.h
 stm32f4xx_hal.h
 ../Inc/stm32f4xx_hal.h
+
+../Inc/ring_buffer.h
+stdint.h
+-
+stdbool.h
+-
+stddef.h
+-
 
 ../Inc/stm32f4xx_hal_conf.h
 stm32f4xx_hal_rcc.h
@@ -339,9 +351,13 @@ stm32f4xx_hal.h
 D:/synth/Src/stm32f4xx_hal.h
 uart.h
 D:/synth/Src/uart.h
+delay.h
+D:/synth/Src/delay.h
 
 D:/synth/Src/uart.c
 stdbool.h
+-
+string.h
 -
 stm32f4xx_hal.h
 D:/synth/Src/stm32f4xx_hal.h
@@ -349,4 +365,8 @@ stm32f4xx_hal_uart.h
 D:/synth/Src/stm32f4xx_hal_uart.h
 uart.h
 D:/synth/Src/uart.h
+ring_buffer.h
+D:/synth/Src/ring_buffer.h
+delay.h
+D:/synth/Src/delay.h
 

@@ -6,26 +6,106 @@ c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nof
                               c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
                               c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-assert.o)
+                              CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj (__assert_func)
 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
                               CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj (__errno)
 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o)
                               c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (exit)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fiprintf.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-assert.o) (fiprintf)
 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
                               c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o) (_global_impure_ptr)
 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
                               c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (__libc_init_array)
 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
                               c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (memset)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strlen.o)
+                              CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj (strlen)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fiprintf.o) (_vfiprintf_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wsetup.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o) (__swsetup_r)
 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
                               c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o) (__call_exitprocs)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-assert.o) (abort)
 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
                               c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o) (atexit)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fflush.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o) (_fflush_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o) (__sinit)
 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
                               c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o) (__libc_fini_array)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fputwc.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o) (_fputwc_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wsetup.o) (_free_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fvwrite.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o) (__sfvwrite_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fwalk.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o) (_fwalk)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fputwc.o) (__locale_mb_cur_max)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o) (_localeconv_r)
 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o) (__retarget_lock_init_recursive)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-makebuf.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wsetup.o) (__smakebuf_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o) (_malloc_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o) (__ascii_mbtowc)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memchr.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o) (memchr)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcpy.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fvwrite.o) (memcpy)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memmove.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fvwrite.o) (memmove)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o) (__malloc_lock)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reallocr.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fvwrite.o) (_realloc_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o) (_sbrk_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o) (raise)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o) (_kill_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o) (__sread)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strcmp.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o) (strcmp)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strncpy.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o) (strncpy)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wbuf.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fputwc.o) (__swbuf_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wcrtomb.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fputwc.o) (_wcrtomb_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o) (__ascii_wctomb)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-writer.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o) (_write_r)
 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
                               c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o) (__register_exitproc)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-closer.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o) (_close_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-ctype_.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o) (_ctype_)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fclose.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o) (_fclose_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fstatr.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-makebuf.o) (_fstat_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-isattyr.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-makebuf.o) (_isatty_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lseekr.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o) (_lseek_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-readr.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o) (_read_r)
+c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+                              c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o) (errno)
 
 Allocating common symbols
 Common symbol       size              file
@@ -34,6 +114,7 @@ __lock___atexit_recursive_mutex
                     0x1               c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
 __lock___arc4random_mutex
                     0x1               c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+errno               0x4               c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
 __lock___env_recursive_mutex
                     0x1               c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
 __lock___sinit_recursive_mutex
@@ -145,8 +226,6 @@ Discarded input sections
                 0x00000000       0x40 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.__NVIC_SetPendingIRQ
                 0x00000000       0x3c CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .text.__NVIC_ClearPendingIRQ
-                0x00000000       0x3c CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.__NVIC_GetActive
                 0x00000000       0x40 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.__NVIC_GetPriority
@@ -173,8 +252,6 @@ Discarded input sections
                 0x00000000       0x1c CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.HAL_NVIC_GetPendingIRQ
                 0x00000000       0x1e CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .text.HAL_NVIC_ClearPendingIRQ
-                0x00000000       0x1c CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.HAL_NVIC_GetActive
                 0x00000000       0x1e CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.HAL_SYSTICK_CLKSourceConfig
@@ -781,9 +858,31 @@ Discarded input sections
  .debug_frame   0x00000000      0x6ac CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj
  .ARM.attributes
                 0x00000000       0x2e CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj
+ .text          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
  .text          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
  .data          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+ .text          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .text.RingBuffer_Clear
+                0x00000000       0x60 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .text.RingBuffer_IsEmpty
+                0x00000000       0x3c CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .text.RingBuffer_GetLen
+                0x00000000       0x34 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .text.RingBuffer_GetCapacity
+                0x00000000       0x34 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .rodata.__func__.4234
+                0x00000000       0x11 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .rodata.__func__.4238
+                0x00000000       0x13 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .rodata.__func__.4242
+                0x00000000       0x12 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .rodata.__func__.4246
+                0x00000000       0x17 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
  .text          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
  .data          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
@@ -797,15 +896,6 @@ Discarded input sections
  .data.environ  0x00000000        0x4 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
  .text.initialise_monitor_handles
                 0x00000000        0xc CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .text._getpid  0x00000000        0xe CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .text._kill    0x00000000       0x20 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .text._exit    0x00000000       0x14 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .text._read    0x00000000       0x3a CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .text._write   0x00000000       0x38 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .text._close   0x00000000       0x16 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .text._fstat   0x00000000       0x1e CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .text._isatty  0x00000000       0x14 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .text._lseek   0x00000000       0x18 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
  .text._open    0x00000000       0x1a CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
  .text._wait    0x00000000       0x1e CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
  .text._unlink  0x00000000       0x1e CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
@@ -814,34 +904,9 @@ Discarded input sections
  .text._link    0x00000000       0x20 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
  .text._fork    0x00000000       0x16 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
  .text._execve  0x00000000       0x22 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .debug_info    0x00000000      0xfa8 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .debug_abbrev  0x00000000      0x2d2 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .debug_aranges
-                0x00000000       0xa8 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .debug_ranges  0x00000000       0x98 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .debug_line    0x00000000      0x3dd CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .debug_str     0x00000000      0x7f3 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .comment       0x00000000       0x7a CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .debug_frame   0x00000000      0x2ac CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
- .ARM.attributes
-                0x00000000       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
  .text          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
  .data          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
- .bss.heap_end.5201
-                0x00000000        0x4 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
- .text._sbrk    0x00000000       0x58 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
- .debug_info    0x00000000      0x9aa CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
- .debug_abbrev  0x00000000      0x21e CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
- .debug_aranges
-                0x00000000       0x20 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
- .debug_ranges  0x00000000       0x10 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
- .debug_line    0x00000000      0x12b CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
- .debug_str     0x00000000      0x5c4 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
- .comment       0x00000000       0x7a CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
- .debug_frame   0x00000000       0x34 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
- .ARM.attributes
-                0x00000000       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
  .text          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
  .data          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
@@ -850,6 +915,16 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
  .data          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .text.UART_PutChar
+                0x00000000       0x40 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .text.UART_WriteData
+                0x00000000       0x60 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .text.UART_WriteString
+                0x00000000       0x22 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .text.UART_GetChar
+                0x00000000       0x30 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .text.UART_ReadData
+                0x00000000       0x48 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
  .text          0x00000000       0x14 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
  .data          0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
  .bss           0x00000000        0x0 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
@@ -860,13 +935,14 @@ Discarded input sections
  .ARM.extab     0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
  .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-assert.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-assert.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-assert.o)
+ .text.__assert
+                0x00000000        0xc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-assert.o)
  .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
  .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
  .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
- .text.__errno  0x00000000        0xc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
- .debug_frame   0x00000000       0x20 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
- .ARM.attributes
-                0x00000000       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
  .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o)
  .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o)
  .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o)
@@ -874,38 +950,106 @@ Discarded input sections
  .debug_frame   0x00000000       0x28 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o)
  .ARM.attributes
                 0x00000000       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fiprintf.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fiprintf.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fiprintf.o)
+ .text._fiprintf_r
+                0x00000000       0x1c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fiprintf.o)
  .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
  .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
  .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
- .data._impure_ptr
-                0x00000000        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
  .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
  .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
  .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
  .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
  .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
  .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o)
+ .text.__sprint_r
+                0x00000000       0x14 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o)
+ .text.vfiprintf
+                0x00000000       0x18 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wsetup.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wsetup.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wsetup.o)
  .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  .text.__call_exitprocs
                 0x00000000       0xc4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
  .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
  .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
  .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fflush.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fflush.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fflush.o)
+ .text.fflush   0x00000000       0x24 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fflush.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x00000000       0x1c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000       0x1c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0x00000000       0x30 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+ .text._cleanup
+                0x00000000       0x14 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+ .text.__sfp    0x00000000       0xa4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+ .text.__sinit_lock_acquire
+                0x00000000        0xc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+ .text.__sinit_lock_release
+                0x00000000        0xc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x24 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x24 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
  .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
  .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
  .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fputwc.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fputwc.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fputwc.o)
+ .text.fputwc   0x00000000       0x38 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fputwc.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fvwrite.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fvwrite.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fvwrite.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fwalk.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fwalk.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fwalk.o)
+ .text._fwalk   0x00000000       0x40 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fwalk.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x00000000       0x40 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .text.setlocale
+                0x00000000       0x10 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .bss._PathLocale
+                0x00000000        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+ .text.__localeconv_l
+                0x00000000        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+ .text.localeconv
+                0x00000000        0x8 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
  .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .text.__retarget_lock_init
                 0x00000000        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
- .text.__retarget_lock_init_recursive
-                0x00000000        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .text.__retarget_lock_close
-                0x00000000        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
- .text.__retarget_lock_close_recursive
                 0x00000000        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .text.__retarget_lock_acquire
                 0x00000000        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
@@ -915,9 +1059,114 @@ Discarded input sections
                 0x00000000        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
  .text.__retarget_lock_release
                 0x00000000        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-makebuf.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-makebuf.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-makebuf.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+ .text._mbtowc_r
+                0x00000000       0x14 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memchr.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memmove.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reallocr.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reallocr.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reallocr.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+ .text._init_signal_r.part.0
+                0x00000000       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+ .text._init_signal_r
+                0x00000000       0x10 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+ .text._signal_r
+                0x00000000       0x38 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+ .text.__sigtramp_r
+                0x00000000       0x54 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+ .text.signal   0x00000000       0x10 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+ .text._init_signal
+                0x00000000       0x18 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+ .text.__sigtramp
+                0x00000000       0x10 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o)
+ .text          0x00000000      0x2dc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strcmp.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strcmp.o)
+ .debug_frame   0x00000000       0x68 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000000       0x1c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strcmp.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strncpy.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strncpy.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strncpy.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wbuf.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wbuf.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wbuf.o)
+ .text.__swbuf  0x00000000       0x10 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wbuf.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wcrtomb.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wcrtomb.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wcrtomb.o)
+ .text.wcrtomb  0x00000000       0x4c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wcrtomb.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x00000000       0x14 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-writer.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-writer.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-writer.o)
  .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
  .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
  .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-closer.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-closer.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-closer.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-ctype_.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-ctype_.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-ctype_.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fclose.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fclose.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fclose.o)
+ .text.fclose   0x00000000       0x10 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fclose.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fstatr.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fstatr.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fstatr.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-isattyr.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-isattyr.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-isattyr.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lseekr.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lseekr.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lseekr.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-readr.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-readr.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-readr.o)
+ .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0x84 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
  .text          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtend.o
  .data          0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtend.o
  .bss           0x00000000        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtend.o
@@ -962,7 +1211,9 @@ LOAD CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 LOAD CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 LOAD CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 LOAD CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj
+LOAD CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
 LOAD CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+LOAD CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
 LOAD CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
 LOAD CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
 LOAD CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
@@ -988,330 +1239,549 @@ LOAD c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-
                 0x08000000                g_pfnVectors
                 0x08000188                . = ALIGN (0x4)
 
-.text           0x08000188     0x1fb8
-                0x08000188                . = ALIGN (0x4)
+.text           0x080001c0     0x4f5c
+                0x080001c0                . = ALIGN (0x4)
  *(.text)
- .text          0x08000188       0x40 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
- .text          0x080001c8       0x30 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
-                0x080001c8                __aeabi_uldivmod
- .text          0x080001f8      0x2c0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
-                0x080001f8                __udivmoddi4
- .text          0x080004b8        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
-                0x080004b8                __aeabi_idiv0
-                0x080004b8                __aeabi_ldiv0
+ .text          0x080001c0       0x40 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .text          0x08000200       0x30 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                0x08000200                __aeabi_uldivmod
+ .text          0x08000230      0x2c0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x08000230                __udivmoddi4
+ .text          0x080004f0        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x080004f0                __aeabi_idiv0
+                0x080004f0                __aeabi_ldiv0
+ *fill*         0x080004f4        0xc 
+ .text          0x08000500       0xdc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strlen.o)
+                0x08000500                strlen
+ *fill*         0x080005dc        0x4 
+ .text          0x080005e0       0xa0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memchr.o)
+                0x080005e0                memchr
+ .text          0x08000680      0x134 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcpy.o)
+                0x08000680                memcpy
  *(.text*)
  .text.HAL_Init
-                0x080004bc       0x44 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x080004bc                HAL_Init
+                0x080007b4       0x44 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x080007b4                HAL_Init
  .text.HAL_InitTick
-                0x08000500       0x60 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08000500                HAL_InitTick
+                0x080007f8       0x60 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x080007f8                HAL_InitTick
  .text.HAL_GetTick
-                0x08000560       0x14 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08000560                HAL_GetTick
+                0x08000858       0x14 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x08000858                HAL_GetTick
  .text.__NVIC_SetPriorityGrouping
-                0x08000574       0x48 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x0800086c       0x48 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.__NVIC_GetPriorityGrouping
-                0x080005bc       0x1c CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x080008b4       0x1c CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.__NVIC_EnableIRQ
-                0x080005d8       0x38 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x080008d0       0x38 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .text.__NVIC_ClearPendingIRQ
+                0x08000908       0x3c CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x08000610       0x54 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08000944       0x54 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x08000664       0x64 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08000998       0x64 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.SysTick_Config
-                0x080006c8       0x44 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x080009fc       0x44 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0800070c       0x16 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0800070c                HAL_NVIC_SetPriorityGrouping
+                0x08000a40       0x16 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08000a40                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08000722       0x38 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08000722                HAL_NVIC_SetPriority
+                0x08000a56       0x38 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08000a56                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0800075a       0x1c CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0800075a                HAL_NVIC_EnableIRQ
+                0x08000a8e       0x1c CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08000a8e                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x08000776       0x18 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08000776                HAL_SYSTICK_Config
- *fill*         0x0800078e        0x2 
+                0x08000aaa       0x18 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08000aaa                HAL_SYSTICK_Config
+ .text.HAL_NVIC_ClearPendingIRQ
+                0x08000ac2       0x1c CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08000ac2                HAL_NVIC_ClearPendingIRQ
+ *fill*         0x08000ade        0x2 
  .text.HAL_GPIO_Init
-                0x08000790      0x334 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08000790                HAL_GPIO_Init
+                0x08000ae0      0x334 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x08000ae0                HAL_GPIO_Init
  .text.HAL_GPIO_TogglePin
-                0x08000ac4       0x34 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08000ac4                HAL_GPIO_TogglePin
+                0x08000e14       0x34 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x08000e14                HAL_GPIO_TogglePin
  .text.HAL_RCC_OscConfig
-                0x08000af8      0x4e0 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08000af8                HAL_RCC_OscConfig
+                0x08000e48      0x4e0 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08000e48                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x08000fd8      0x1cc CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08000fd8                HAL_RCC_ClockConfig
+                0x08001328      0x1cc CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08001328                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x080011a4      0x1c4 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x080011a4                HAL_RCC_GetSysClockFreq
+                0x080014f4      0x1c4 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x080014f4                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetHCLKFreq
-                0x08001368       0x14 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08001368                HAL_RCC_GetHCLKFreq
+                0x080016b8       0x14 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x080016b8                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x0800137c       0x28 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0800137c                HAL_RCC_GetPCLK1Freq
+                0x080016cc       0x28 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x080016cc                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x080013a4       0x28 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x080013a4                HAL_RCC_GetPCLK2Freq
+                0x080016f4       0x28 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x080016f4                HAL_RCC_GetPCLK2Freq
  .text.HAL_UART_Init
-                0x080013cc       0x9a CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x080013cc                HAL_UART_Init
+                0x0800171c       0x9a CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0800171c                HAL_UART_Init
  .text.HAL_UART_MspInit
-                0x08001466       0x12 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x08001466                HAL_UART_MspInit
+                0x080017b6       0x12 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x080017b6                HAL_UART_MspInit
  .text.UART_SetConfig
-                0x08001478      0x740 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x080017c8      0x740 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.SysTick_Handler
-                0x08001bb8       0x1c CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
-                0x08001bb8                SysTick_Handler
+                0x08001f08       0x1c CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
+                0x08001f08                SysTick_Handler
+ .text.Delay    0x08001f24       0x38 CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
+                0x08001f24                Delay
  .text.LED_Init
-                0x08001bd4       0x50 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
-                0x08001bd4                LED_Init
- .text.Delay    0x08001c24       0x38 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
-                0x08001c24                Delay
- .text.main     0x08001c5c       0x3c CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
-                0x08001c5c                main
+                0x08001f5c       0x50 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+                0x08001f5c                LED_Init
+ .text.main     0x08001fac       0x30 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+                0x08001fac                main
  .text.SystemClock_Config
-                0x08001c98       0xd4 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
-                0x08001c98                SystemClock_Config
+                0x08001fdc       0xd4 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+                0x08001fdc                SystemClock_Config
  .text.MX_GPIO_Init
-                0x08001d6c       0x30 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+                0x080020b0       0x30 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
  .text.Error_Handler
-                0x08001d9c        0xc CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
-                0x08001d9c                Error_Handler
+                0x080020e0        0xc CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+                0x080020e0                Error_Handler
+ .text.RingBuffer_Init
+                0x080020ec       0x88 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+                0x080020ec                RingBuffer_Init
+ .text.RingBuffer_PutChar
+                0x08002174       0x7c CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+                0x08002174                RingBuffer_PutChar
+ .text.RingBuffer_GetChar
+                0x080021f0       0x90 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+                0x080021f0                RingBuffer_GetChar
  .text.HAL_MspInit
-                0x08001da8       0x4c CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
-                0x08001da8                HAL_MspInit
+                0x08002280       0x4c CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+                0x08002280                HAL_MspInit
  .text.NMI_Handler
-                0x08001df4        0xc CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
-                0x08001df4                NMI_Handler
+                0x080022cc        0xc CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+                0x080022cc                NMI_Handler
  .text.HardFault_Handler
-                0x08001e00        0x6 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
-                0x08001e00                HardFault_Handler
+                0x080022d8        0x6 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+                0x080022d8                HardFault_Handler
  .text.MemManage_Handler
-                0x08001e06        0x6 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
-                0x08001e06                MemManage_Handler
+                0x080022de        0x6 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+                0x080022de                MemManage_Handler
  .text.BusFault_Handler
-                0x08001e0c        0x6 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
-                0x08001e0c                BusFault_Handler
+                0x080022e4        0x6 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+                0x080022e4                BusFault_Handler
  .text.UsageFault_Handler
-                0x08001e12        0x6 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
-                0x08001e12                UsageFault_Handler
+                0x080022ea        0x6 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+                0x080022ea                UsageFault_Handler
  .text.SVC_Handler
-                0x08001e18        0xc CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
-                0x08001e18                SVC_Handler
+                0x080022f0        0xc CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+                0x080022f0                SVC_Handler
  .text.DebugMon_Handler
-                0x08001e24        0xc CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
-                0x08001e24                DebugMon_Handler
+                0x080022fc        0xc CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+                0x080022fc                DebugMon_Handler
  .text.PendSV_Handler
-                0x08001e30        0xc CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
-                0x08001e30                PendSV_Handler
+                0x08002308        0xc CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+                0x08002308                PendSV_Handler
+ .text._getpid  0x08002314        0xe CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+                0x08002314                _getpid
+ .text._kill    0x08002322       0x20 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+                0x08002322                _kill
+ .text._exit    0x08002342       0x14 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+                0x08002342                _exit
+ .text._read    0x08002356       0x3a CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+                0x08002356                _read
+ .text._write   0x08002390       0x38 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+                0x08002390                _write
+ .text._close   0x080023c8       0x16 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+                0x080023c8                _close
+ .text._fstat   0x080023de       0x1e CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+                0x080023de                _fstat
+ .text._isatty  0x080023fc       0x14 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+                0x080023fc                _isatty
+ .text._lseek   0x08002410       0x18 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+                0x08002410                _lseek
+ .text._sbrk    0x08002428       0x58 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
+                0x08002428                _sbrk
  .text.SystemInit
-                0x08001e3c       0x18 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
-                0x08001e3c                SystemInit
+                0x08002480       0x18 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
+                0x08002480                SystemInit
+ .text.UART4_IRQHandler
+                0x08002498       0x9c CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+                0x08002498                UART4_IRQHandler
  .text.UARTInit
-                0x08001e54       0xb8 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
-                0x08001e54                UARTInit
+                0x08002534      0x100 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+                0x08002534                UARTInit
  .text.Reset_Handler
-                0x08001f0c       0x50 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
-                0x08001f0c                Reset_Handler
+                0x08002634       0x50 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
+                0x08002634                Reset_Handler
  .text.Default_Handler
-                0x08001f5c        0x2 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
-                0x08001f5c                RTC_Alarm_IRQHandler
-                0x08001f5c                HASH_RNG_IRQHandler
-                0x08001f5c                EXTI2_IRQHandler
-                0x08001f5c                TIM8_CC_IRQHandler
-                0x08001f5c                TIM1_CC_IRQHandler
-                0x08001f5c                DMA2_Stream5_IRQHandler
-                0x08001f5c                DMA1_Stream5_IRQHandler
-                0x08001f5c                PVD_IRQHandler
-                0x08001f5c                SDIO_IRQHandler
-                0x08001f5c                TAMP_STAMP_IRQHandler
-                0x08001f5c                CAN2_RX1_IRQHandler
-                0x08001f5c                EXTI3_IRQHandler
-                0x08001f5c                TIM8_TRG_COM_TIM14_IRQHandler
-                0x08001f5c                TIM1_UP_TIM10_IRQHandler
-                0x08001f5c                TIM8_UP_TIM13_IRQHandler
-                0x08001f5c                I2C3_ER_IRQHandler
-                0x08001f5c                EXTI0_IRQHandler
-                0x08001f5c                I2C2_EV_IRQHandler
-                0x08001f5c                DMA1_Stream2_IRQHandler
-                0x08001f5c                CAN1_RX0_IRQHandler
-                0x08001f5c                FPU_IRQHandler
-                0x08001f5c                OTG_HS_WKUP_IRQHandler
-                0x08001f5c                CAN2_SCE_IRQHandler
-                0x08001f5c                DMA2_Stream2_IRQHandler
-                0x08001f5c                SPI1_IRQHandler
-                0x08001f5c                TIM6_DAC_IRQHandler
-                0x08001f5c                TIM1_BRK_TIM9_IRQHandler
-                0x08001f5c                DCMI_IRQHandler
-                0x08001f5c                CAN2_RX0_IRQHandler
-                0x08001f5c                DMA2_Stream3_IRQHandler
-                0x08001f5c                USART6_IRQHandler
-                0x08001f5c                USART3_IRQHandler
-                0x08001f5c                CAN1_RX1_IRQHandler
-                0x08001f5c                UART5_IRQHandler
-                0x08001f5c                DMA2_Stream0_IRQHandler
-                0x08001f5c                TIM4_IRQHandler
-                0x08001f5c                I2C1_EV_IRQHandler
-                0x08001f5c                DMA1_Stream6_IRQHandler
-                0x08001f5c                DMA1_Stream1_IRQHandler
-                0x08001f5c                UART4_IRQHandler
-                0x08001f5c                TIM3_IRQHandler
-                0x08001f5c                RCC_IRQHandler
-                0x08001f5c                TIM8_BRK_TIM12_IRQHandler
-                0x08001f5c                Default_Handler
-                0x08001f5c                EXTI15_10_IRQHandler
-                0x08001f5c                ADC_IRQHandler
-                0x08001f5c                DMA1_Stream7_IRQHandler
-                0x08001f5c                TIM7_IRQHandler
-                0x08001f5c                CAN2_TX_IRQHandler
-                0x08001f5c                TIM5_IRQHandler
-                0x08001f5c                DMA2_Stream7_IRQHandler
-                0x08001f5c                I2C3_EV_IRQHandler
-                0x08001f5c                EXTI9_5_IRQHandler
-                0x08001f5c                RTC_WKUP_IRQHandler
-                0x08001f5c                ETH_WKUP_IRQHandler
-                0x08001f5c                SPI2_IRQHandler
-                0x08001f5c                OTG_HS_EP1_IN_IRQHandler
-                0x08001f5c                DMA1_Stream0_IRQHandler
-                0x08001f5c                CAN1_TX_IRQHandler
-                0x08001f5c                EXTI4_IRQHandler
-                0x08001f5c                FSMC_IRQHandler
-                0x08001f5c                ETH_IRQHandler
-                0x08001f5c                OTG_HS_EP1_OUT_IRQHandler
-                0x08001f5c                WWDG_IRQHandler
-                0x08001f5c                TIM2_IRQHandler
-                0x08001f5c                OTG_FS_WKUP_IRQHandler
-                0x08001f5c                TIM1_TRG_COM_TIM11_IRQHandler
-                0x08001f5c                OTG_HS_IRQHandler
-                0x08001f5c                EXTI1_IRQHandler
-                0x08001f5c                USART2_IRQHandler
-                0x08001f5c                I2C2_ER_IRQHandler
-                0x08001f5c                DMA2_Stream1_IRQHandler
-                0x08001f5c                CAN1_SCE_IRQHandler
-                0x08001f5c                FLASH_IRQHandler
-                0x08001f5c                DMA2_Stream4_IRQHandler
-                0x08001f5c                USART1_IRQHandler
-                0x08001f5c                OTG_FS_IRQHandler
-                0x08001f5c                SPI3_IRQHandler
-                0x08001f5c                DMA1_Stream4_IRQHandler
-                0x08001f5c                I2C1_ER_IRQHandler
-                0x08001f5c                DMA2_Stream6_IRQHandler
-                0x08001f5c                DMA1_Stream3_IRQHandler
- *fill*         0x08001f5e        0x2 
+                0x08002684        0x2 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
+                0x08002684                RTC_Alarm_IRQHandler
+                0x08002684                HASH_RNG_IRQHandler
+                0x08002684                EXTI2_IRQHandler
+                0x08002684                TIM8_CC_IRQHandler
+                0x08002684                TIM1_CC_IRQHandler
+                0x08002684                DMA2_Stream5_IRQHandler
+                0x08002684                DMA1_Stream5_IRQHandler
+                0x08002684                PVD_IRQHandler
+                0x08002684                SDIO_IRQHandler
+                0x08002684                TAMP_STAMP_IRQHandler
+                0x08002684                CAN2_RX1_IRQHandler
+                0x08002684                EXTI3_IRQHandler
+                0x08002684                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08002684                TIM1_UP_TIM10_IRQHandler
+                0x08002684                TIM8_UP_TIM13_IRQHandler
+                0x08002684                I2C3_ER_IRQHandler
+                0x08002684                EXTI0_IRQHandler
+                0x08002684                I2C2_EV_IRQHandler
+                0x08002684                DMA1_Stream2_IRQHandler
+                0x08002684                CAN1_RX0_IRQHandler
+                0x08002684                FPU_IRQHandler
+                0x08002684                OTG_HS_WKUP_IRQHandler
+                0x08002684                CAN2_SCE_IRQHandler
+                0x08002684                DMA2_Stream2_IRQHandler
+                0x08002684                SPI1_IRQHandler
+                0x08002684                TIM6_DAC_IRQHandler
+                0x08002684                TIM1_BRK_TIM9_IRQHandler
+                0x08002684                DCMI_IRQHandler
+                0x08002684                CAN2_RX0_IRQHandler
+                0x08002684                DMA2_Stream3_IRQHandler
+                0x08002684                USART6_IRQHandler
+                0x08002684                USART3_IRQHandler
+                0x08002684                CAN1_RX1_IRQHandler
+                0x08002684                UART5_IRQHandler
+                0x08002684                DMA2_Stream0_IRQHandler
+                0x08002684                TIM4_IRQHandler
+                0x08002684                I2C1_EV_IRQHandler
+                0x08002684                DMA1_Stream6_IRQHandler
+                0x08002684                DMA1_Stream1_IRQHandler
+                0x08002684                TIM3_IRQHandler
+                0x08002684                RCC_IRQHandler
+                0x08002684                TIM8_BRK_TIM12_IRQHandler
+                0x08002684                Default_Handler
+                0x08002684                EXTI15_10_IRQHandler
+                0x08002684                ADC_IRQHandler
+                0x08002684                DMA1_Stream7_IRQHandler
+                0x08002684                TIM7_IRQHandler
+                0x08002684                CAN2_TX_IRQHandler
+                0x08002684                TIM5_IRQHandler
+                0x08002684                DMA2_Stream7_IRQHandler
+                0x08002684                I2C3_EV_IRQHandler
+                0x08002684                EXTI9_5_IRQHandler
+                0x08002684                RTC_WKUP_IRQHandler
+                0x08002684                ETH_WKUP_IRQHandler
+                0x08002684                SPI2_IRQHandler
+                0x08002684                OTG_HS_EP1_IN_IRQHandler
+                0x08002684                DMA1_Stream0_IRQHandler
+                0x08002684                CAN1_TX_IRQHandler
+                0x08002684                EXTI4_IRQHandler
+                0x08002684                FSMC_IRQHandler
+                0x08002684                ETH_IRQHandler
+                0x08002684                OTG_HS_EP1_OUT_IRQHandler
+                0x08002684                WWDG_IRQHandler
+                0x08002684                TIM2_IRQHandler
+                0x08002684                OTG_FS_WKUP_IRQHandler
+                0x08002684                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08002684                OTG_HS_IRQHandler
+                0x08002684                EXTI1_IRQHandler
+                0x08002684                USART2_IRQHandler
+                0x08002684                I2C2_ER_IRQHandler
+                0x08002684                DMA2_Stream1_IRQHandler
+                0x08002684                CAN1_SCE_IRQHandler
+                0x08002684                FLASH_IRQHandler
+                0x08002684                DMA2_Stream4_IRQHandler
+                0x08002684                USART1_IRQHandler
+                0x08002684                OTG_FS_IRQHandler
+                0x08002684                SPI3_IRQHandler
+                0x08002684                DMA1_Stream4_IRQHandler
+                0x08002684                I2C1_ER_IRQHandler
+                0x08002684                DMA2_Stream6_IRQHandler
+                0x08002684                DMA1_Stream3_IRQHandler
+ *fill*         0x08002686        0x2 
+ .text.__assert_func
+                0x08002688       0x3c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-assert.o)
+                0x08002688                __assert_func
+ .text.__errno  0x080026c4        0xc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
+                0x080026c4                __errno
+ .text.fiprintf
+                0x080026d0       0x28 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fiprintf.o)
+                0x080026d0                fiprintf
  .text.__libc_init_array
-                0x08001f60       0x48 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
-                0x08001f60                __libc_init_array
- .text.memset   0x08001fa8       0xa0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
-                0x08001fa8                memset
+                0x080026f8       0x48 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+                0x080026f8                __libc_init_array
+ .text.memset   0x08002740       0xa0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+                0x08002740                memset
+ .text.__sprint_r.part.0
+                0x080027e0       0x78 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o)
+ .text._vfiprintf_r
+                0x08002858      0xd38 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o)
+                0x08002858                _vfiprintf_r
+ .text.__sbprintf
+                0x08003590       0x84 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o)
+ .text.__swsetup_r
+                0x08003614       0xd0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wsetup.o)
+                0x08003614                __swsetup_r
  .text.startup.register_fini
-                0x08002048       0x14 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x0800205c        0xc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
-                0x0800205c                atexit
+                0x080036e4       0x14 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text.abort    0x080036f8       0x10 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
+                0x080036f8                abort
+ .text.atexit   0x08003708        0xc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+                0x08003708                atexit
+ .text.__sflush_r
+                0x08003714      0x130 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fflush.o)
+                0x08003714                __sflush_r
+ .text._fflush_r
+                0x08003844       0x5c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fflush.o)
+                0x08003844                _fflush_r
+ .text.std      0x080038a0       0x50 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x080038f0        0xc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+                0x080038f0                _cleanup_r
+ .text.__sinit  0x080038fc       0x54 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+                0x080038fc                __sinit
+ .text.__sfp_lock_acquire
+                0x08003950        0xc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+                0x08003950                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0x0800395c        0xc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+                0x0800395c                __sfp_lock_release
  .text.__libc_fini_array
-                0x08002068       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
-                0x08002068                __libc_fini_array
+                0x08003968       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+                0x08003968                __libc_fini_array
+ .text.__fputwc
+                0x08003994       0xa8 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fputwc.o)
+                0x08003994                __fputwc
+ .text._fputwc_r
+                0x08003a3c       0x68 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fputwc.o)
+                0x08003a3c                _fputwc_r
+ .text._malloc_trim_r
+                0x08003aa4       0xa0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+                0x08003aa4                _malloc_trim_r
+ .text._free_r  0x08003b44      0x208 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+                0x08003b44                _free_r
+ .text.__sfvwrite_r
+                0x08003d4c      0x2e0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fvwrite.o)
+                0x08003d4c                __sfvwrite_r
+ .text._fwalk_reent
+                0x0800402c       0x48 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fwalk.o)
+                0x0800402c                _fwalk_reent
+ .text.__locale_mb_cur_max
+                0x08004074        0xc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+                0x08004074                __locale_mb_cur_max
+ .text._localeconv_r
+                0x08004080        0x8 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+                0x08004080                _localeconv_r
+ .text.__retarget_lock_init_recursive
+                0x08004088        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x08004088                __retarget_lock_init_recursive
+ .text.__retarget_lock_close_recursive
+                0x0800408c        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x0800408c                __retarget_lock_close_recursive
  .text.__retarget_lock_acquire_recursive
-                0x08002094        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x08002094                __retarget_lock_acquire_recursive
+                0x08004090        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x08004090                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08002098        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x08002098                __retarget_lock_release_recursive
+                0x08004094        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x08004094                __retarget_lock_release_recursive
+ .text.__swhatbuf_r
+                0x08004098       0x5c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-makebuf.o)
+                0x08004098                __swhatbuf_r
+ .text.__smakebuf_r
+                0x080040f4       0x98 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-makebuf.o)
+                0x080040f4                __smakebuf_r
+ .text._malloc_r
+                0x0800418c      0x574 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x0800418c                _malloc_r
+ .text.__ascii_mbtowc
+                0x08004700       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+                0x08004700                __ascii_mbtowc
+ .text.memmove  0x0800472c       0xd8 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memmove.o)
+                0x0800472c                memmove
+ .text.__malloc_lock
+                0x08004804        0xc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+                0x08004804                __malloc_lock
+ .text.__malloc_unlock
+                0x08004810        0xc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+                0x08004810                __malloc_unlock
+ .text._realloc_r
+                0x0800481c      0x3e0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reallocr.o)
+                0x0800481c                _realloc_r
+ .text._sbrk_r  0x08004bfc       0x24 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o)
+                0x08004bfc                _sbrk_r
+ .text._raise_r
+                0x08004c20       0x58 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+                0x08004c20                _raise_r
+ .text.raise    0x08004c78       0x10 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+                0x08004c78                raise
+ .text._kill_r  0x08004c88       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
+                0x08004c88                _kill_r
+ .text._getpid_r
+                0x08004cb4        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
+                0x08004cb4                _getpid_r
+ .text.__sread  0x08004cb8       0x24 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o)
+                0x08004cb8                __sread
+ .text.__swrite
+                0x08004cdc       0x40 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o)
+                0x08004cdc                __swrite
+ .text.__sseek  0x08004d1c       0x20 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o)
+                0x08004d1c                __sseek
+ .text.__sclose
+                0x08004d3c        0x8 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o)
+                0x08004d3c                __sclose
+ .text.strncpy  0x08004d44       0x68 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strncpy.o)
+                0x08004d44                strncpy
+ .text.__swbuf_r
+                0x08004dac       0xb0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wbuf.o)
+                0x08004dac                __swbuf_r
+ .text._wcrtomb_r
+                0x08004e5c       0x3c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wcrtomb.o)
+                0x08004e5c                _wcrtomb_r
+ .text.__ascii_wctomb
+                0x08004e98       0x1c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+                0x08004e98                __ascii_wctomb
+ .text._write_r
+                0x08004eb4       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-writer.o)
+                0x08004eb4                _write_r
  .text.__register_exitproc
-                0x0800209c       0x8c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
-                0x0800209c                __register_exitproc
+                0x08004ee0       0x8c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+                0x08004ee0                __register_exitproc
+ .text._close_r
+                0x08004f6c       0x24 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-closer.o)
+                0x08004f6c                _close_r
+ .text._fclose_r
+                0x08004f90       0xcc c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fclose.o)
+                0x08004f90                _fclose_r
+ .text._fstat_r
+                0x0800505c       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fstatr.o)
+                0x0800505c                _fstat_r
+ .text._isatty_r
+                0x08005088       0x24 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-isattyr.o)
+                0x08005088                _isatty_r
+ .text._lseek_r
+                0x080050ac       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lseekr.o)
+                0x080050ac                _lseek_r
+ .text._read_r  0x080050d8       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-readr.o)
+                0x080050d8                _read_r
  *(.glue_7)
- .glue_7        0x08002128        0x0 linker stubs
+ .glue_7        0x08005104        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08002128        0x0 linker stubs
+ .glue_7t       0x08005104        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08002128        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x08005104        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x08002128        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crti.o
-                0x08002128                _init
- .init          0x0800212c        0x8 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x08005104        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crti.o
+                0x08005104                _init
+ .init          0x08005108        0x8 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x08002134        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crti.o
-                0x08002134                _fini
- .fini          0x08002138        0x8 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
-                0x08002140                . = ALIGN (0x4)
-                0x08002140                _etext = .
+ .fini          0x08005110        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crti.o
+                0x08005110                _fini
+ .fini          0x08005114        0x8 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
+                0x0800511c                . = ALIGN (0x4)
+                0x0800511c                _etext = .
 
-.vfp11_veneer   0x08002140        0x0
- .vfp11_veneer  0x08002140        0x0 linker stubs
+.vfp11_veneer   0x0800511c        0x0
+ .vfp11_veneer  0x0800511c        0x0 linker stubs
 
-.v4_bx          0x08002140        0x0
- .v4_bx         0x08002140        0x0 linker stubs
+.v4_bx          0x0800511c        0x0
+ .v4_bx         0x0800511c        0x0 linker stubs
 
-.iplt           0x08002140        0x0
- .iplt          0x08002140        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x0800511c        0x0
+ .iplt          0x0800511c        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x08002140       0x1c
-                0x08002140                . = ALIGN (0x4)
+.rodata         0x0800511c      0x244
+                0x0800511c                . = ALIGN (0x4)
  *(.rodata)
+ .rodata        0x0800511c       0x4a CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
  *(.rodata*)
+ *fill*         0x08005166        0x2 
+ .rodata.__func__.4230
+                0x08005168       0x10 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .rodata.__func__.4251
+                0x08005178       0x13 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ *fill*         0x0800518b        0x1 
+ .rodata.__func__.4256
+                0x0800518c       0x13 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ *fill*         0x0800519f        0x1 
  .rodata.AHBPrescTable
-                0x08002140       0x10 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
-                0x08002140                AHBPrescTable
+                0x080051a0       0x10 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
+                0x080051a0                AHBPrescTable
  .rodata.APBPrescTable
-                0x08002150        0x8 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
-                0x08002150                APBPrescTable
+                0x080051b0        0x8 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
+                0x080051b0                APBPrescTable
+ .rodata.__assert_func.str1.4
+                0x080051b8       0x3f c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-assert.o)
+                                 0x43 (size before relaxing)
+ *fill*         0x080051f7        0x1 
  .rodata._global_impure_ptr
-                0x08002158        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
-                0x08002158                _global_impure_ptr
-                0x0800215c                . = ALIGN (0x4)
+                0x080051f8        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                0x080051f8                _global_impure_ptr
+ .rodata._vfiprintf_r.str1.4
+                0x080051fc       0x2f c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o)
+ *fill*         0x0800522b        0x1 
+ .rodata.blanks.7338
+                0x0800522c       0x10 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o)
+ .rodata.zeroes.7339
+                0x0800523c       0x10 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o)
+ .rodata._setlocale_r.str1.4
+                0x0800524c        0xa c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+                                  0xd (size before relaxing)
+ *fill*         0x08005256        0x2 
+ .rodata.str1.4
+                0x08005258        0x2 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ *fill*         0x0800525a        0x2 
+ .rodata._ctype_
+                0x0800525c      0x101 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-ctype_.o)
+                0x0800525c                _ctype_
+                0x08005360                . = ALIGN (0x4)
+ *fill*         0x0800535d        0x3 
 
-.ARM.extab      0x0800215c        0x0
-                0x0800215c                . = ALIGN (0x4)
+.ARM.extab      0x08005360        0x0
+                0x08005360                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0800215c                . = ALIGN (0x4)
+                0x08005360                . = ALIGN (0x4)
 
-.ARM            0x0800215c        0x8
-                0x0800215c                . = ALIGN (0x4)
-                0x0800215c                __exidx_start = .
+.ARM            0x08005360        0x8
+                0x08005360                . = ALIGN (0x4)
+                0x08005360                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x0800215c        0x8 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
-                0x08002164                __exidx_end = .
-                0x08002164                . = ALIGN (0x4)
+ .ARM.exidx     0x08005360        0x8 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x08005368                __exidx_end = .
+                0x08005368                . = ALIGN (0x4)
 
-.rel.dyn        0x08002164        0x0
- .rel.iplt      0x08002164        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x08005368        0x0
+ .rel.iplt      0x08005368        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.preinit_array  0x08002164        0x0
-                0x08002164                . = ALIGN (0x4)
-                0x08002164                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08005368        0x0
+                0x08005368                . = ALIGN (0x4)
+                0x08005368                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08002164                PROVIDE (__preinit_array_end = .)
-                0x08002164                . = ALIGN (0x4)
+                0x08005368                PROVIDE (__preinit_array_end = .)
+                0x08005368                . = ALIGN (0x4)
 
-.init_array     0x08002164        0x8
-                0x08002164                . = ALIGN (0x4)
-                0x08002164                PROVIDE (__init_array_start = .)
+.init_array     0x08005368        0x8
+                0x08005368                . = ALIGN (0x4)
+                0x08005368                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08002164        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x08005368        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08002168        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
-                0x0800216c                PROVIDE (__init_array_end = .)
-                0x0800216c                . = ALIGN (0x4)
+ .init_array    0x0800536c        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08005370                PROVIDE (__init_array_end = .)
+                0x08005370                . = ALIGN (0x4)
 
-.fini_array     0x0800216c        0x4
-                0x0800216c                . = ALIGN (0x4)
-                0x0800216c                PROVIDE (__fini_array_start = .)
+.fini_array     0x08005370        0x4
+                0x08005370                . = ALIGN (0x4)
+                0x08005370                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0800216c        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08002170                PROVIDE (__fini_array_end = .)
-                0x08002170                . = ALIGN (0x4)
-                0x08002170                _sidata = LOADADDR (.data)
+ .fini_array    0x08005370        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08005374                PROVIDE (__fini_array_end = .)
+                0x08005374                . = ALIGN (0x4)
+                0x08005374                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x43c load address 0x08002170
+.data           0x20000000      0x9b8 load address 0x08005374
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1326,56 +1796,95 @@ LOAD c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-
  .data.SystemCoreClock
                 0x20000008        0x4 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
                 0x20000008                SystemCoreClock
- *fill*         0x2000000c        0x4 
+ .data._impure_ptr
+                0x2000000c        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                0x2000000c                _impure_ptr
  .data.impure_data
                 0x20000010      0x428 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
  .data.__atexit_recursive_mutex
                 0x20000438        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
                 0x20000438                __atexit_recursive_mutex
-                0x2000043c                . = ALIGN (0x4)
-                0x2000043c                _edata = .
+ .data.__global_locale
+                0x2000043c      0x16c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+                0x2000043c                __global_locale
+ .data.__malloc_av_
+                0x200005a8      0x408 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x200005a8                __malloc_av_
+ .data.__malloc_sbrk_base
+                0x200009b0        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x200009b0                __malloc_sbrk_base
+ .data.__malloc_trim_threshold
+                0x200009b4        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x200009b4                __malloc_trim_threshold
+                0x200009b8                . = ALIGN (0x4)
+                0x200009b8                _edata = .
 
-.igot.plt       0x2000043c        0x0 load address 0x080025ac
- .igot.plt      0x2000043c        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
-                0x2000043c                . = ALIGN (0x4)
+.igot.plt       0x200009b8        0x0 load address 0x08005d2c
+ .igot.plt      0x200009b8        0x0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x200009b8                . = ALIGN (0x4)
 
-.bss            0x2000043c       0x48 load address 0x080025ac
-                0x2000043c                _sbss = .
-                0x2000043c                __bss_start__ = _sbss
+.bss            0x200009b8      0x8ec load address 0x08005d2c
+                0x200009b8                _sbss = .
+                0x200009b8                __bss_start__ = _sbss
  *(.bss)
- .bss           0x2000043c       0x1c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .bss           0x200009b8       0x1c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
  *(.bss*)
- .bss.uwTick    0x20000458        0x4 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x20000458                uwTick
- .bss.ticks     0x2000045c        0x4 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
-                0x2000045c                ticks
+ .bss.uwTick    0x200009d4        0x4 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x200009d4                uwTick
+ .bss.ticks     0x200009d8        0x4 CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
+                0x200009d8                ticks
+ .bss.heap_end.5201
+                0x200009dc        0x4 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
+ .bss.UART_RingBuffer_Tx
+                0x200009e0       0x14 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .bss.RingBufferData_Tx
+                0x200009f4      0x400 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .bss.UART_RingBuffer_Rx
+                0x20000df4       0x14 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .bss.RingBufferData_Rx
+                0x20000e08      0x400 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .bss.uart      0x20001208       0x40 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .bss.__malloc_current_mallinfo
+                0x20001248       0x28 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x20001248                __malloc_current_mallinfo
+ .bss.__malloc_max_sbrked_mem
+                0x20001270        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x20001270                __malloc_max_sbrked_mem
+ .bss.__malloc_max_total_mem
+                0x20001274        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x20001274                __malloc_max_total_mem
+ .bss.__malloc_top_pad
+                0x20001278        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+                0x20001278                __malloc_top_pad
  *(COMMON)
- COMMON         0x20000460       0x21 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x20000460                __lock___atexit_recursive_mutex
-                0x20000464                __lock___arc4random_mutex
-                0x20000468                __lock___env_recursive_mutex
-                0x2000046c                __lock___sinit_recursive_mutex
-                0x20000470                __lock___malloc_recursive_mutex
-                0x20000474                __lock___at_quick_exit_mutex
-                0x20000478                __lock___dd_hash_mutex
-                0x2000047c                __lock___tz_mutex
-                0x20000480                __lock___sfp_recursive_mutex
-                0x20000484                . = ALIGN (0x4)
- *fill*         0x20000481        0x3 
-                0x20000484                _ebss = .
-                0x20000484                __bss_end__ = _ebss
+ COMMON         0x2000127c       0x21 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x2000127c                __lock___atexit_recursive_mutex
+                0x20001280                __lock___arc4random_mutex
+                0x20001284                __lock___env_recursive_mutex
+                0x20001288                __lock___sinit_recursive_mutex
+                0x2000128c                __lock___malloc_recursive_mutex
+                0x20001290                __lock___at_quick_exit_mutex
+                0x20001294                __lock___dd_hash_mutex
+                0x20001298                __lock___tz_mutex
+                0x2000129c                __lock___sfp_recursive_mutex
+ *fill*         0x2000129d        0x3 
+ COMMON         0x200012a0        0x4 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+                0x200012a0                errno
+                0x200012a4                . = ALIGN (0x4)
+                0x200012a4                _ebss = .
+                0x200012a4                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000484      0x604 load address 0x080025ac
-                0x20000488                . = ALIGN (0x8)
- *fill*         0x20000484        0x4 
-                0x20000488                PROVIDE (end = .)
+                0x200012a4      0x604 load address 0x08005d2c
+                0x200012a8                . = ALIGN (0x8)
+ *fill*         0x200012a4        0x4 
+                0x200012a8                PROVIDE (end = .)
                 [!provide]                PROVIDE (_end = .)
-                0x20000688                . = (. + _Min_Heap_Size)
- *fill*         0x20000488      0x200 
-                0x20000a88                . = (. + _Min_Stack_Size)
- *fill*         0x20000688      0x400 
-                0x20000a88                . = ALIGN (0x8)
+                0x200014a8                . = (. + _Min_Heap_Size)
+ *fill*         0x200012a8      0x200 
+                0x200018a8                . = (. + _Min_Stack_Size)
+ *fill*         0x200014a8      0x400 
+                0x200018a8                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -1400,70 +1909,166 @@ LOAD c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-
  .ARM.attributes
                 0x00000104       0x2e CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .ARM.attributes
-                0x00000132       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+                0x00000132       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
  .ARM.attributes
-                0x00000160       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+                0x00000160       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
  .ARM.attributes
-                0x0000018e       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+                0x0000018e       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
  .ARM.attributes
-                0x000001bc       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
+                0x000001bc       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
  .ARM.attributes
-                0x000001ea       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+                0x000001ea       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
  .ARM.attributes
-                0x00000218       0x21 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
+                0x00000218       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
  .ARM.attributes
-                0x00000239       0x1e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                0x00000246       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
  .ARM.attributes
-                0x00000257       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x00000274       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
  .ARM.attributes
-                0x00000285       0x1e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x000002a2       0x2e CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
  .ARM.attributes
-                0x000002a3       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                0x000002d0       0x21 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
  .ARM.attributes
-                0x000002d1       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+                0x000002f1       0x1e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x000002ff       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+                0x0000030f       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x0000032d       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x0000033d       0x1e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x0000035b       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+                0x0000035b       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-assert.o)
  .ARM.attributes
-                0x00000389       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+                0x00000389       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
  .ARM.attributes
-                0x000003b7       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x000003b7       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fiprintf.o)
  .ARM.attributes
-                0x000003e5       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+                0x000003e5       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000413       0x1e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
+                0x00000413       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000441       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000046f       0x1c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x0000048b       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o)
+ .ARM.attributes
+                0x000004b9       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x000004e7       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000515       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
+ .ARM.attributes
+                0x00000543       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000571       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x0000059f       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x000005cd       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x000005fb       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fputwc.o)
+ .ARM.attributes
+                0x00000629       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+ .ARM.attributes
+                0x00000657       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x00000685       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x000006b3       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .ARM.attributes
+                0x000006e1       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+ .ARM.attributes
+                0x0000070f       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .ARM.attributes
+                0x0000073d       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x0000076b       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x00000799       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+ .ARM.attributes
+                0x000007c7       0x1c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x000007e3       0x1c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x000007ff       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x0000082d       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000085b       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x00000889       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x000008b7       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+ .ARM.attributes
+                0x000008e5       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
+ .ARM.attributes
+                0x00000913       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x00000941       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strncpy.o)
+ .ARM.attributes
+                0x0000096f       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x0000099d       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wcrtomb.o)
+ .ARM.attributes
+                0x000009cb       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x000009f9       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-writer.o)
+ .ARM.attributes
+                0x00000a27       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000a55       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-closer.o)
+ .ARM.attributes
+                0x00000a83       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x00000ab1       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fclose.o)
+ .ARM.attributes
+                0x00000adf       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x00000b0d       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x00000b3b       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x00000b69       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-readr.o)
+ .ARM.attributes
+                0x00000b97       0x2e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000bc5       0x1e c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
 OUTPUT(ProjektAMK.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x5bfb
+.debug_info     0x00000000     0x839f
  .debug_info    0x00000000      0x9a7 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_info    0x000009a7      0xecc CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_info    0x00001873      0x823 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_info    0x00002096      0x98b CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_info    0x00002a21     0x134c CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_info    0x00003d6d      0x7b6 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
- .debug_info    0x00004523      0x389 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_info    0x000048ac      0x205 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
- .debug_info    0x00004ab1      0x599 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
- .debug_info    0x0000504a      0xb8f CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
- .debug_info    0x00005bd9       0x22 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
+ .debug_info    0x00003d6d      0x102 CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
+ .debug_info    0x00003e6f      0x6ed CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+ .debug_info    0x0000455c      0x329 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .debug_info    0x00004885      0x389 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_info    0x00004c0e      0x205 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+ .debug_info    0x00004e13      0xfa8 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+ .debug_info    0x00005dbb      0x9aa CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
+ .debug_info    0x00006765      0x599 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_info    0x00006cfe     0x167f CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .debug_info    0x0000837d       0x22 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
 
-.debug_abbrev   0x00000000     0x1293
+.debug_abbrev   0x00000000     0x19e8
  .debug_abbrev  0x00000000      0x1ea CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_abbrev  0x000001ea      0x339 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_abbrev  0x00000523      0x1ee CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_abbrev  0x00000711      0x272 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_abbrev  0x00000983      0x26d CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_abbrev  0x00000bf0      0x1f7 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
- .debug_abbrev  0x00000de7      0x11a CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_abbrev  0x00000f01       0xb5 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
- .debug_abbrev  0x00000fb6      0x142 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
- .debug_abbrev  0x000010f8      0x189 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
- .debug_abbrev  0x00001281       0x12 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
+ .debug_abbrev  0x00000bf0       0xba CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
+ .debug_abbrev  0x00000caa      0x1b5 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+ .debug_abbrev  0x00000e5f       0xc8 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .debug_abbrev  0x00000f27      0x11a CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_abbrev  0x00001041       0xb5 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+ .debug_abbrev  0x000010f6      0x2d2 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+ .debug_abbrev  0x000013c8      0x21e CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
+ .debug_abbrev  0x000015e6      0x142 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_abbrev  0x00001728      0x2ae CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .debug_abbrev  0x000019d6       0x12 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
 
-.debug_aranges  0x00000000      0x5f0
+.debug_aranges  0x00000000      0x750
  .debug_aranges
                 0x00000000       0xf0 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_aranges
@@ -1475,66 +2080,90 @@ OUTPUT(ProjektAMK.elf elf32-littlearm)
  .debug_aranges
                 0x000002e8      0x1d0 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .debug_aranges
-                0x000004b8       0x50 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+                0x000004b8       0x28 CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
  .debug_aranges
-                0x00000508       0x20 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+                0x000004e0       0x40 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
  .debug_aranges
-                0x00000528       0x58 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+                0x00000520       0x50 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
  .debug_aranges
-                0x00000580       0x28 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
+                0x00000570       0x20 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
  .debug_aranges
-                0x000005a8       0x20 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+                0x00000590       0x58 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
  .debug_aranges
-                0x000005c8       0x28 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
+                0x000005e8       0xa8 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+ .debug_aranges
+                0x00000690       0x20 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
+ .debug_aranges
+                0x000006b0       0x28 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_aranges
+                0x000006d8       0x50 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .debug_aranges
+                0x00000728       0x28 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
 
-.debug_ranges   0x00000000      0x548
+.debug_ranges   0x00000000      0x668
  .debug_ranges  0x00000000       0xe0 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_ranges  0x000000e0      0x108 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_ranges  0x000001e8       0x48 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_ranges  0x00000230       0x78 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_ranges  0x000002a8      0x1c0 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_ranges  0x00000468       0x40 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
- .debug_ranges  0x000004a8       0x10 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_ranges  0x000004b8       0x48 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
- .debug_ranges  0x00000500       0x18 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
- .debug_ranges  0x00000518       0x10 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
- .debug_ranges  0x00000528       0x20 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
+ .debug_ranges  0x00000468       0x18 CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
+ .debug_ranges  0x00000480       0x30 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+ .debug_ranges  0x000004b0       0x40 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .debug_ranges  0x000004f0       0x10 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_ranges  0x00000500       0x48 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+ .debug_ranges  0x00000548       0x98 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+ .debug_ranges  0x000005e0       0x10 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
+ .debug_ranges  0x000005f0       0x18 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_ranges  0x00000608       0x40 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .debug_ranges  0x00000648       0x20 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
 
-.debug_line     0x00000000     0x3a4d
+.debug_line     0x00000000     0x444b
  .debug_line    0x00000000      0x4cf CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_line    0x000004cf      0x790 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_line    0x00000c5f      0x66f CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_line    0x000012ce      0x87d CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_line    0x00001b4b     0x1316 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_line    0x00002e61      0x308 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
- .debug_line    0x00003169      0x1b3 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x0000331c      0x234 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
- .debug_line    0x00003550      0x241 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
- .debug_line    0x00003791      0x235 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
- .debug_line    0x000039c6       0x87 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
+ .debug_line    0x00002e61      0x127 CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
+ .debug_line    0x00002f88      0x2ca CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+ .debug_line    0x00003252      0x250 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .debug_line    0x000034a2      0x1b3 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x00003655      0x234 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+ .debug_line    0x00003889      0x3dd CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+ .debug_line    0x00003c66      0x12b CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
+ .debug_line    0x00003d91      0x241 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_line    0x00003fd2      0x3f2 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .debug_line    0x000043c4       0x87 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
 
-.debug_str      0x00000000     0x1fc8
- .debug_str     0x00000000      0xb09 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+.debug_str      0x00000000     0x2792
+ .debug_str     0x00000000      0xb04 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
                                 0xb72 (size before relaxing)
- .debug_str     0x00000b09      0x4f3 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_str     0x00000b04      0x4f3 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
                                 0xcf6 (size before relaxing)
- .debug_str     0x00000ffc      0x1e4 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_str     0x00000ff7      0x1e4 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
                                 0x5bc (size before relaxing)
- .debug_str     0x000011e0      0x2fa CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_str     0x000011db      0x2fa CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
                                 0x773 (size before relaxing)
- .debug_str     0x000014da      0x915 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_str     0x000014d5      0x915 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
                                 0xc86 (size before relaxing)
- .debug_str     0x00001def       0x72 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
-                                0x5c9 (size before relaxing)
- .debug_str     0x00001e61       0x21 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_str     0x00001dea       0x37 CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
+                                0x1eb (size before relaxing)
+ .debug_str     0x00001e21       0x50 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+                                0x58e (size before relaxing)
+ .debug_str     0x00001e71       0xfe CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+                                0x28c (size before relaxing)
+ .debug_str     0x00001f6f       0x21 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
                                 0x3a4 (size before relaxing)
- .debug_str     0x00001e82       0x9c CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+ .debug_str     0x00001f90       0x9c CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
                                 0x310 (size before relaxing)
- .debug_str     0x00001f1e       0x4b CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_str     0x0000202c      0x5d0 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+                                0x7f3 (size before relaxing)
+ .debug_str     0x000025fc       0x37 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
+                                0x5c4 (size before relaxing)
+ .debug_str     0x00002633       0x4b CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
                                 0x420 (size before relaxing)
- .debug_str     0x00001f69       0x28 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
-                                0xcfa (size before relaxing)
- .debug_str     0x00001f91       0x37 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
+ .debug_str     0x0000267e       0xdd CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+                               0x11ff (size before relaxing)
+ .debug_str     0x0000275b       0x37 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
                                  0x52 (size before relaxing)
 
 .comment        0x00000000       0x79
@@ -1544,29 +2173,73 @@ OUTPUT(ProjektAMK.elf elf32-littlearm)
  .comment       0x00000079       0x7a CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .comment       0x00000079       0x7a CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .comment       0x00000079       0x7a CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .comment       0x00000079       0x7a CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
  .comment       0x00000079       0x7a CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+ .comment       0x00000079       0x7a CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
  .comment       0x00000079       0x7a CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
  .comment       0x00000079       0x7a CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+ .comment       0x00000079       0x7a CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+ .comment       0x00000079       0x7a CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
  .comment       0x00000079       0x7a CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
  .comment       0x00000079       0x7a CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
 
-.debug_frame    0x00000000     0x189c
+.debug_frame    0x00000000     0x29c8
  .debug_frame   0x00000000      0x374 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_frame   0x00000374      0x498 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_frame   0x0000080c      0x14c CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_frame   0x00000958      0x1f0 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_frame   0x00000b48      0x844 CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_frame   0x0000138c      0x104 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
- .debug_frame   0x00001490       0x38 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_frame   0x000014c8       0xf0 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
- .debug_frame   0x000015b8       0x58 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
- .debug_frame   0x00001610       0x34 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
- .debug_frame   0x00001644       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00001670       0x34 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x000016a4       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
- .debug_frame   0x000016d0       0x38 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
- .debug_frame   0x00001708       0x5c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x00001764       0x20 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
- .debug_frame   0x00001784       0x34 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
- .debug_frame   0x000017b8       0xb0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
- .debug_frame   0x00001868       0x34 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+ .debug_frame   0x0000138c       0x58 CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
+ .debug_frame   0x000013e4       0xbc CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+ .debug_frame   0x000014a0      0x10c CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+ .debug_frame   0x000015ac       0x38 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_frame   0x000015e4       0xf0 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+ .debug_frame   0x000016d4      0x2ac CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+ .debug_frame   0x00001980       0x34 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
+ .debug_frame   0x000019b4       0x58 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_frame   0x00001a0c      0x10c CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ .debug_frame   0x00001b18       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00001b44       0x34 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00001b78       0x40 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-assert.o)
+ .debug_frame   0x00001bb8       0x20 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
+ .debug_frame   0x00001bd8       0x70 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fiprintf.o)
+ .debug_frame   0x00001c48       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+ .debug_frame   0x00001c74       0x38 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+ .debug_frame   0x00001cac       0xd0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-vfiprintf.o)
+ .debug_frame   0x00001d7c       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wsetup.o)
+ .debug_frame   0x00001da8       0x5c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00001e04       0x28 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
+ .debug_frame   0x00001e2c       0x20 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00001e4c       0x5c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fflush.o)
+ .debug_frame   0x00001ea8      0x14c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-findfp.o)
+ .debug_frame   0x00001ff4       0x34 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+ .debug_frame   0x00002028       0x9c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fputwc.o)
+ .debug_frame   0x000020c4       0x8c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-freer.o)
+ .debug_frame   0x00002150       0x64 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fvwrite.o)
+ .debug_frame   0x000021b4       0x54 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fwalk.o)
+ .debug_frame   0x00002208       0x54 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-locale.o)
+ .debug_frame   0x0000225c       0x40 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-localeconv.o)
+ .debug_frame   0x0000229c       0xb0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x0000234c       0x6c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-makebuf.o)
+ .debug_frame   0x000023b8       0x4c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mallocr.o)
+ .debug_frame   0x00002404       0x4c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x00002450       0x40 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memmove.o)
+ .debug_frame   0x00002490       0x30 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-mlock.o)
+ .debug_frame   0x000024c0       0x48 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reallocr.o)
+ .debug_frame   0x00002508       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-sbrkr.o)
+ .debug_frame   0x00002534       0xe0 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+ .debug_frame   0x00002614       0x3c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
+ .debug_frame   0x00002650       0x8c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-stdio.o)
+ .debug_frame   0x000026dc       0x38 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-strncpy.o)
+ .debug_frame   0x00002714       0x40 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wbuf.o)
+ .debug_frame   0x00002754       0x60 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wcrtomb.o)
+ .debug_frame   0x000027b4       0x3c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-wctomb_r.o)
+ .debug_frame   0x000027f0       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-writer.o)
+ .debug_frame   0x0000281c       0x34 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+ .debug_frame   0x00002850       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-closer.o)
+ .debug_frame   0x0000287c       0x3c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fclose.o)
+ .debug_frame   0x000028b8       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fstatr.o)
+ .debug_frame   0x000028e4       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-isattyr.o)
+ .debug_frame   0x00002910       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lseekr.o)
+ .debug_frame   0x0000293c       0x2c c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-readr.o)
+ .debug_frame   0x00002968       0x60 c:/progra~2/gnutoo~1/92019-~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)

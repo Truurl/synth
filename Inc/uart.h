@@ -16,7 +16,7 @@ bool UART_GetChar(char* c);
 size_t UART_ReadData(char* data, size_t maxSize);
 
 // USART Interrupt Service Routine (ISR)
-void USARTx_IRQHandler(void);
+void UART4_IRQHandler(void);
 
 bool UARTInit(void);
 

@@ -303,13 +303,19 @@
 		<Unit filename="D:/synth/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c">
 			<Option target="ProjektAMK.elf"/>
 		</Unit>
-		<Unit filename="D:/synth/Inc/uart.h">
+		<Unit filename="D:/synth/Inc/delay.h">
 			<Option target="ProjektAMK.elf"/>
 		</Unit>
 		<Unit filename="D:/synth/STM32F407VGTX_FLASH.ld">
 			<Option target="ProjektAMK.elf"/>
 		</Unit>
+		<Unit filename="D:/synth/Src/delay.c">
+			<Option target="ProjektAMK.elf"/>
+		</Unit>
 		<Unit filename="D:/synth/Src/main.c">
+			<Option target="ProjektAMK.elf"/>
+		</Unit>
+		<Unit filename="D:/synth/Src/ring_buffer.c">
 			<Option target="ProjektAMK.elf"/>
 		</Unit>
 		<Unit filename="D:/synth/Src/stm32f4xx_hal_msp.c">

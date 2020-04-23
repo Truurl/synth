@@ -329,9 +329,22 @@ CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usa
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\synth\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c -o CMakeFiles\ProjektAMK.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c.s
 
+CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj: CMakeFiles/ProjektAMK.elf.dir/flags.make
+CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj: ../Src/delay.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ProjektAMK.elf.dir\Src\delay.c.obj   -c D:\synth\Src\delay.c
+
+CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.i"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\synth\Src\delay.c > CMakeFiles\ProjektAMK.elf.dir\Src\delay.c.i
+
+CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.s"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\synth\Src\delay.c -o CMakeFiles\ProjektAMK.elf.dir\Src\delay.c.s
+
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: CMakeFiles/ProjektAMK.elf.dir/flags.make
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ProjektAMK.elf.dir\Src\main.c.obj   -c D:\synth\Src\main.c
 
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.i: cmake_force
@@ -342,9 +355,22 @@ CMakeFiles/ProjektAMK.elf.dir/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProjektAMK.elf.dir/Src/main.c.s"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\synth\Src\main.c -o CMakeFiles\ProjektAMK.elf.dir\Src\main.c.s
 
+CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj: CMakeFiles/ProjektAMK.elf.dir/flags.make
+CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj: ../Src/ring_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ProjektAMK.elf.dir\Src\ring_buffer.c.obj   -c D:\synth\Src\ring_buffer.c
+
+CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.i"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\synth\Src\ring_buffer.c > CMakeFiles\ProjektAMK.elf.dir\Src\ring_buffer.c.i
+
+CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.s"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\synth\Src\ring_buffer.c -o CMakeFiles\ProjektAMK.elf.dir\Src\ring_buffer.c.s
+
 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/ProjektAMK.elf.dir/flags.make
 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj: ../Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ProjektAMK.elf.dir\Src\stm32f4xx_hal_msp.c.obj   -c D:\synth\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -357,7 +383,7 @@ CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj: CMakeFiles/ProjektAMK.elf.dir/flags.make
 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj: ../Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ProjektAMK.elf.dir\Src\stm32f4xx_it.c.obj   -c D:\synth\Src\stm32f4xx_it.c
 
 CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.i: cmake_force
@@ -370,7 +396,7 @@ CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.s: cmake_force
 
 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj: CMakeFiles/ProjektAMK.elf.dir/flags.make
 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj: ../Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ProjektAMK.elf.dir\Src\syscalls.c.obj   -c D:\synth\Src\syscalls.c
 
 CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.i: cmake_force
@@ -383,7 +409,7 @@ CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj: CMakeFiles/ProjektAMK.elf.dir/flags.make
 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj: ../Src/sysmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ProjektAMK.elf.dir\Src\sysmem.c.obj   -c D:\synth\Src\sysmem.c
 
 CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.i: cmake_force
@@ -396,7 +422,7 @@ CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.s: cmake_force
 
 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj: CMakeFiles/ProjektAMK.elf.dir/flags.make
 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj: ../Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ProjektAMK.elf.dir\Src\system_stm32f4xx.c.obj   -c D:\synth\Src\system_stm32f4xx.c
 
 CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.i: cmake_force
@@ -409,7 +435,7 @@ CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.s: cmake_force
 
 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: CMakeFiles/ProjektAMK.elf.dir/flags.make
 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: ../Src/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ProjektAMK.elf.dir\Src\uart.c.obj   -c D:\synth\Src\uart.c
 
 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.i: cmake_force
@@ -422,7 +448,7 @@ CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.s: cmake_force
 
 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj: CMakeFiles/ProjektAMK.elf.dir/flags.make
 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj: ../Startup/startup_stm32f407vgtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\ProjektAMK.elf.dir\Startup\startup_stm32f407vgtx.s.obj -c D:\synth\Startup\startup_stm32f407vgtx.s
 
 # Object files for target ProjektAMK.elf
@@ -448,7 +474,9 @@ ProjektAMK_elf_OBJECTS = \
 "CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
 "CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj" \
+"CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj" \
 "CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj" \
+"CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj" \
 "CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj" \
 "CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj" \
 "CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj" \
@@ -481,7 +509,9 @@ ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/s
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj
+ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
@@ -491,7 +521,7 @@ ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/build.make
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable ProjektAMK.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking C executable ProjektAMK.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ProjektAMK.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/synth/cmake-build-debug/ProjektAMK.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/synth/cmake-build-debug/ProjektAMK.bin"

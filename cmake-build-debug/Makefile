@@ -689,6 +689,33 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s:
 	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s
 
+Src/delay.obj: Src/delay.c.obj
+
+.PHONY : Src/delay.obj
+
+# target to build an object file
+Src/delay.c.obj:
+	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
+.PHONY : Src/delay.c.obj
+
+Src/delay.i: Src/delay.c.i
+
+.PHONY : Src/delay.i
+
+# target to preprocess a source file
+Src/delay.c.i:
+	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.i
+.PHONY : Src/delay.c.i
+
+Src/delay.s: Src/delay.c.s
+
+.PHONY : Src/delay.s
+
+# target to generate assembly for a file
+Src/delay.c.s:
+	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.s
+.PHONY : Src/delay.c.s
+
 Src/main.obj: Src/main.c.obj
 
 .PHONY : Src/main.obj
@@ -715,6 +742,33 @@ Src/main.s: Src/main.c.s
 Src/main.c.s:
 	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/main.c.s
 .PHONY : Src/main.c.s
+
+Src/ring_buffer.obj: Src/ring_buffer.c.obj
+
+.PHONY : Src/ring_buffer.obj
+
+# target to build an object file
+Src/ring_buffer.c.obj:
+	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+.PHONY : Src/ring_buffer.c.obj
+
+Src/ring_buffer.i: Src/ring_buffer.c.i
+
+.PHONY : Src/ring_buffer.i
+
+# target to preprocess a source file
+Src/ring_buffer.c.i:
+	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.i
+.PHONY : Src/ring_buffer.c.i
+
+Src/ring_buffer.s: Src/ring_buffer.c.s
+
+.PHONY : Src/ring_buffer.s
+
+# target to generate assembly for a file
+Src/ring_buffer.c.s:
+	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.s
+.PHONY : Src/ring_buffer.c.s
 
 Src/stm32f4xx_hal_msp.obj: Src/stm32f4xx_hal_msp.c.obj
 
@@ -959,9 +1013,15 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.s
+	@echo ... Src/delay.obj
+	@echo ... Src/delay.i
+	@echo ... Src/delay.s
 	@echo ... Src/main.obj
 	@echo ... Src/main.i
 	@echo ... Src/main.s
+	@echo ... Src/ring_buffer.obj
+	@echo ... Src/ring_buffer.i
+	@echo ... Src/ring_buffer.s
 	@echo ... Src/stm32f4xx_hal_msp.obj
 	@echo ... Src/stm32f4xx_hal_msp.i
 	@echo ... Src/stm32f4xx_hal_msp.s
