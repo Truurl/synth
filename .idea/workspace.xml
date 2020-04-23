@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="ProjektAMK" targetName="ProjektAMK.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a89a682a-d5e2-4159-8bf3-c91741c9291f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="187" />
+        <option value="82" />
+        <option value="1301" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="Name" />
+        <option value="Value" />
+        <option value="Description" />
+      </list>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="w4y2mzwy" />
+  </component>
+  <component name="ProjectId" id="1aavhYjhoNyOtzSxvzjAfppO5nE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\synth\Inc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProjektAMK\Drivers\STM32F4xx_HAL_Driver\Src" />
+      <recent name="D:\ProjektAMK\Drivers\STM32F4xx_HAL_Driver\Inc" />
+      <recent name="D:\ProjektAMK\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD ProjektAMK">
+    <configuration name="ProjektAMK.elf" type="com.jetbrains.cidr.embedded.customgdbserver.type" factoryName="com.jetbrains.cidr.embedded.customgdbserver.factory" nameIsGenerated="true" PROGRAM_PARAMS="openocd -f interface/stlink-v2-1.cfg -f target/stm32f4x.cfg &quot;gdbport 3333&quot;" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjektAMK" TARGET_NAME="ProjektAMK.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="ProjektAMK" RUN_TARGET_NAME="ProjektAMK.elf">
+      <custom-gdb-server version="1" gdb-connect="localhost:3333" executable="C:\openocd-0.10.0\bin\openocd.exe" warmup-ms="0" download-type="ALWAYS" reset-cmd="monitor reset" reset-after-download="true" />
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OCD ProjektAMK" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjektAMK" TARGET_NAME="ProjektAMK.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProjektAMK" RUN_TARGET_NAME="ProjektAMK.elf">
+      <openocd gdb-port="3333" telnet-port="4444" board-config="board/stm32f4discovery.cfg" reset-type="INIT" download-type="ALWAYS" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Embedded GDB Server.ProjektAMK.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD ProjektAMK" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a89a682a-d5e2-4159-8bf3-c91741c9291f" name="Default Changelist" comment="" />
+      <created>1586986638957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586986638957</updated>
+      <workItem from="1586986656908" duration="2671000" />
+      <workItem from="1587023928499" duration="138000" />
+      <workItem from="1587070695210" duration="5529000" />
+      <workItem from="1587134170203" duration="73000" />
+      <workItem from="1587377027445" duration="1380000" />
+      <workItem from="1587473045726" duration="3644000" />
+      <workItem from="1587566308712" duration="1325000" />
+      <workItem from="1587575910731" duration="4997000" />
+      <workItem from="1587594352569" duration="1833000" />
+      <workItem from="1587597056927" duration="1835000" />
+      <workItem from="1587621152053" duration="1904000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587074353600">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587074353600" />
+    <state x="585" y="307" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587597973195">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="585" y="307" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1587597973195" />
+    <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587597392354">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587597392354" />
+    <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1587597052760">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1587597052760" />
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587600043342">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587600043342" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1587600043342">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587600043342" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1587600043341">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587600043341" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1587600043342">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587600043342" />
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1587134249913">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587134249913" />
+    <state width="1637" height="336" key="GridCell.Tab.1.center" timestamp="1587134249913">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587134249913" />
+    <state width="1637" height="336" key="GridCell.Tab.1.left" timestamp="1587134249913">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587134249913" />
+    <state width="1637" height="336" key="GridCell.Tab.1.right" timestamp="1587134249913">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587134249913" />
+    <state width="1637" height="336" key="GridCell.Tab.2.bottom" timestamp="1587134249913">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.2.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587134249913" />
+    <state width="1637" height="336" key="GridCell.Tab.2.center" timestamp="1587134249913">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.2.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587134249913" />
+    <state width="1637" height="336" key="GridCell.Tab.2.left" timestamp="1587134249913">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.2.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587134249913" />
+    <state width="1637" height="336" key="GridCell.Tab.2.right" timestamp="1587134249913">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.2.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587134249913" />
+    <state x="341" y="150" key="SettingsEditor" timestamp="1587377371380">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="341" y="150" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1587377371380" />
+    <state x="542" y="356" key="com.vladsch.clionarduinoplugin.settings.ProjectSettingsDialog" timestamp="1587598289595">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="542" y="356" key="com.vladsch.clionarduinoplugin.settings.ProjectSettingsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587598289595" />
+    <state x="496" y="233" key="run.anything.popup" timestamp="1587473173732">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="496" y="233" key="run.anything.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587473173732" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1587072856872">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587072856872" />
+  </component>
+</project>
