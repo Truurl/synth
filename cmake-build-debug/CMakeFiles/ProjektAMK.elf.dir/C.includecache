@@ -234,14 +234,6 @@ stdint.h
 stm32f4xx_hal.h
 ../Inc/stm32f4xx_hal.h
 
-../Inc/ring_buffer.h
-stdint.h
--
-stdbool.h
--
-stddef.h
--
-
 ../Inc/stm32f4xx_hal_conf.h
 stm32f4xx_hal_rcc.h
 ../Inc/stm32f4xx_hal_rcc.h
@@ -340,33 +332,31 @@ stm32f4xx_hal_lptim.h
 
 ../Inc/uart.h
 
+../Inc/waves.h
+
 D:/synth/Src/main.c
 main.h
 D:/synth/Src/main.h
 stdint.h
 -
+stdio.h
+-
 stdbool.h
+-
+math.h
+-
+limits.h
 -
 stm32f4xx_hal.h
 D:/synth/Src/stm32f4xx_hal.h
+stm32f4xx_hal_adc.h
+D:/synth/Src/stm32f4xx_hal_adc.h
+stm32f4xx_hal_adc_ex.h
+D:/synth/Src/stm32f4xx_hal_adc_ex.h
 uart.h
 D:/synth/Src/uart.h
 delay.h
 D:/synth/Src/delay.h
-
-D:/synth/Src/uart.c
-stdbool.h
--
-string.h
--
-stm32f4xx_hal.h
-D:/synth/Src/stm32f4xx_hal.h
-stm32f4xx_hal_uart.h
-D:/synth/Src/stm32f4xx_hal_uart.h
-uart.h
-D:/synth/Src/uart.h
-ring_buffer.h
-D:/synth/Src/ring_buffer.h
-delay.h
-D:/synth/Src/delay.h
+waves.h
+D:/synth/Src/waves.h
 

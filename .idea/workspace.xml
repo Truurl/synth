@@ -12,17 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a89a682a-d5e2-4159-8bf3-c91741c9291f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Inc/ring_buffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/ring_buffer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inc/waves.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/waves.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/arduino-project-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/arduino-project-settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/uart.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/uart.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/uart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/uart.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/28" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj" afterDir="false" />
@@ -80,6 +80,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -91,15 +92,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\synth\Inc" />
+      <recent name="D:\synth\Src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\synth" />
       <recent name="D:\ProjektAMK\Drivers\STM32F4xx_HAL_Driver\Src" />
       <recent name="D:\ProjektAMK\Drivers\STM32F4xx_HAL_Driver\Inc" />
       <recent name="D:\ProjektAMK\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\synth\Inc" />
-      <recent name="D:\synth\Src" />
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD ProjektAMK">
@@ -141,12 +142,30 @@
       <workItem from="1587594352569" duration="1833000" />
       <workItem from="1587597056927" duration="1835000" />
       <workItem from="1587621152053" duration="6953000" />
-      <workItem from="1587633231167" duration="13439000" />
+      <workItem from="1587633231167" duration="13586000" />
+      <workItem from="1587726956605" duration="23859000" />
+      <workItem from="1587770863388" duration="7896000" />
+      <workItem from="1587811061623" duration="6687000" />
+      <workItem from="1587832587536" duration="8974000" />
+      <workItem from="1587931193253" duration="375000" />
+      <workItem from="1587932264851" duration="253000" />
     </task>
+    <task id="LOCAL-00001" summary="UART finally working">
+      <created>1587674204774</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587674204863</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UART finally working" />
+    <option name="LAST_COMMIT_MESSAGE" value="UART finally working" />
   </component>
   <component name="WindowStateProjectService">
     <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587626007947">
@@ -161,26 +180,30 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587624800986" />
+    <state x="421" y="76" key="CommitChangelistDialog2" timestamp="1587674198929">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="421" y="76" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587674198929" />
     <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1587597052760">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1587597052760" />
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587644111642">
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587931588201">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587644111642" />
-    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1587644111641">
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587931588201" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1587931588201">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587644111641" />
-    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1587644111621">
+    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587931588201" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1587931588201">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587644111621" />
-    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1587644111642">
+    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587931588201" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1587931588201">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587644111642" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587931588201" />
     <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1587628226563">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -213,21 +236,21 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1637" height="336" key="GridCell.Tab.2.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587628226563" />
-    <state x="341" y="150" key="SettingsEditor" timestamp="1587377371380">
+    <state x="341" y="150" key="SettingsEditor" timestamp="1587758186910">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="341" y="150" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1587377371380" />
-    <state x="542" y="356" key="com.vladsch.clionarduinoplugin.settings.ProjectSettingsDialog" timestamp="1587635678666">
+    <state x="341" y="150" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1587758186910" />
+    <state x="542" y="356" key="com.vladsch.clionarduinoplugin.settings.ProjectSettingsDialog" timestamp="1587776743222">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="542" y="356" key="com.vladsch.clionarduinoplugin.settings.ProjectSettingsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587635678666" />
+    <state x="542" y="356" key="com.vladsch.clionarduinoplugin.settings.ProjectSettingsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587776743222" />
     <state x="496" y="233" key="run.anything.popup" timestamp="1587473173732">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="496" y="233" key="run.anything.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587473173732" />
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1587072856872">
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1587838812071">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587072856872" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587838812071" />
   </component>
 </project>

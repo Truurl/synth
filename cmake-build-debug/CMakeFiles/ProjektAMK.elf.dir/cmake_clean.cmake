@@ -29,6 +29,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj"
   "CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj"
   "CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj"
+  "CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.obj"
   "CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj"
   "ProjektAMK.elf"
   "ProjektAMK.elf.manifest"

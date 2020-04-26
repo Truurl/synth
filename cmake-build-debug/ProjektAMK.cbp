@@ -336,6 +336,9 @@
 		<Unit filename="D:/synth/Src/uart.c">
 			<Option target="ProjektAMK.elf"/>
 		</Unit>
+		<Unit filename="D:/synth/Src/waves.c">
+			<Option target="ProjektAMK.elf"/>
+		</Unit>
 		<Unit filename="D:/synth/Startup/startup_stm32f407vgtx.s">
 			<Option target="ProjektAMK.elf"/>
 		</Unit>

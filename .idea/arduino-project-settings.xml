@@ -4,6 +4,5 @@
     <option name="baudRate" value="115200" />
     <option name="immediateSend" value="false" />
     <option name="port" value="COM4" />
-    <option name="serialEndOfLine" value="0" />
   </component>
 </project>

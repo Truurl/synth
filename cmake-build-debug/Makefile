@@ -932,6 +932,33 @@ Src/uart.c.s:
 	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.s
 .PHONY : Src/uart.c.s
 
+Src/waves.obj: Src/waves.c.obj
+
+.PHONY : Src/waves.obj
+
+# target to build an object file
+Src/waves.c.obj:
+	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.obj
+.PHONY : Src/waves.c.obj
+
+Src/waves.i: Src/waves.c.i
+
+.PHONY : Src/waves.i
+
+# target to preprocess a source file
+Src/waves.c.i:
+	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.i
+.PHONY : Src/waves.c.i
+
+Src/waves.s: Src/waves.c.s
+
+.PHONY : Src/waves.s
+
+# target to generate assembly for a file
+Src/waves.c.s:
+	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.s
+.PHONY : Src/waves.c.s
+
 Startup/startup_stm32f407vgtx.obj: Startup/startup_stm32f407vgtx.s.obj
 
 .PHONY : Startup/startup_stm32f407vgtx.obj
@@ -1040,6 +1067,9 @@ help:
 	@echo ... Src/uart.obj
 	@echo ... Src/uart.i
 	@echo ... Src/uart.s
+	@echo ... Src/waves.obj
+	@echo ... Src/waves.i
+	@echo ... Src/waves.s
 	@echo ... Startup/startup_stm32f407vgtx.obj
 .PHONY : help
 

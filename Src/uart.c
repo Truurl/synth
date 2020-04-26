@@ -12,12 +12,12 @@
 // UART transmit buffer descriptor
 static RingBuffer UART_RingBuffer_Tx;
 // UART transmit buffer memory pool
-static char RingBufferData_Tx[1024];
+static char RingBufferData_Tx[2048];
 
 // UART receive buffer descriptor
 static RingBuffer UART_RingBuffer_Rx;
 // UART receive buffer memory pool
-static char RingBufferData_Rx[1024];
+static char RingBufferData_Rx[2048];
 
 
 static UART_HandleTypeDef uart;
@@ -41,20 +41,30 @@ bool UART_PutChar(char c)
 
 size_t UART_WriteData(const void* data, size_t dataSize)
 {
-    size_t i = 0;
-    char* temp = (char*) data;
-    for (; i<dataSize; i++)
-    {
-        if (RingBuffer_PutChar(&UART_RingBuffer_Tx, temp[i]))
-        {
-            __HAL_UART_ENABLE_IT(&uart, UART_IT_TXE);
-        }
-        else
-        {
-            return i;
-        }
-    }
-    return i;
+//    size_t i = 0;
+//    for (; i<dataSize; i++)
+//    {
+//        if (RingBuffer_PutChar(&UART_RingBuffer_Tx, ((char *) data)[i]))
+//        {
+//
+//        }__HAL_UART_ENABLE_IT(&uart, UART_IT_TXE);
+//        else
+//        {
+//            return i;
+//        }
+//    }
+//    return i;
+
+	size_t i = 0;
+	for (; i<dataSize; i++)
+	{
+		if (!RingBuffer_PutChar(&UART_RingBuffer_Tx, ((char *) data)[i]))
+		{
+			return i;
+		}
+	}
+	__HAL_UART_ENABLE_IT(&uart, UART_IT_TXE);
+	return i;
 }
 
 size_t UART_WriteString(const char* string)

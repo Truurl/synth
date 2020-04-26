@@ -446,9 +446,22 @@ CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.s"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\synth\Src\uart.c -o CMakeFiles\ProjektAMK.elf.dir\Src\uart.c.s
 
+CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.obj: CMakeFiles/ProjektAMK.elf.dir/flags.make
+CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.obj: ../Src/waves.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.obj"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ProjektAMK.elf.dir\Src\waves.c.obj   -c D:\synth\Src\waves.c
+
+CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.i"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\synth\Src\waves.c > CMakeFiles\ProjektAMK.elf.dir\Src\waves.c.i
+
+CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.s"
+	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\synth\Src\waves.c -o CMakeFiles\ProjektAMK.elf.dir\Src\waves.c.s
+
 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj: CMakeFiles/ProjektAMK.elf.dir/flags.make
 CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj: ../Startup/startup_stm32f407vgtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj"
 	C:\PROGRA~2\GNUTOO~1\92019-~1\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\ProjektAMK.elf.dir\Startup\startup_stm32f407vgtx.s.obj -c D:\synth\Startup\startup_stm32f407vgtx.s
 
 # Object files for target ProjektAMK.elf
@@ -483,6 +496,7 @@ ProjektAMK_elf_OBJECTS = \
 "CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj" \
 "CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj" \
 "CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj" \
+"CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.obj" \
 "CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj"
 
 # External object files for target ProjektAMK.elf
@@ -518,10 +532,11 @@ ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.obj
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/build.make
 ProjektAMK.elf: CMakeFiles/ProjektAMK.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking C executable ProjektAMK.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\synth\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C executable ProjektAMK.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ProjektAMK.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/synth/cmake-build-debug/ProjektAMK.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/synth/cmake-build-debug/ProjektAMK.bin"

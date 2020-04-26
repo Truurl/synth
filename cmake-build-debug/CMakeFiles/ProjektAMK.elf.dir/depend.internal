@@ -844,6 +844,7 @@ CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
  ../Inc/main.h
  ../Inc/stm32f4xx_hal_conf.h
  ../Inc/uart.h
+ ../Inc/waves.h
  D:/synth/Src/main.c
 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
  ../Inc/ring_buffer.h
@@ -1010,3 +1011,6 @@ CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
  ../Inc/stm32f4xx_hal_conf.h
  ../Inc/uart.h
  D:/synth/Src/uart.c
+CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.obj
+ ../Inc/waves.h
+ D:/synth/Src/waves.c

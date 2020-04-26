@@ -843,6 +843,7 @@ CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Inc/delay.h
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Inc/main.h
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Inc/stm32f4xx_hal_conf.h
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Inc/uart.h
+CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Inc/waves.h
 CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj: ../Src/main.c
 
 CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj: ../Inc/ring_buffer.h
@@ -1009,4 +1010,7 @@ CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: ../Inc/ring_buffer.h
 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: ../Inc/stm32f4xx_hal_conf.h
 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: ../Inc/uart.h
 CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj: ../Src/uart.c
+
+CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.obj: ../Inc/waves.h
+CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.obj: ../Src/waves.c
 

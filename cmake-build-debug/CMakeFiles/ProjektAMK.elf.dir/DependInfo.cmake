@@ -55,6 +55,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/synth/Src/sysmem.c" "D:/synth/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj"
   "D:/synth/Src/system_stm32f4xx.c" "D:/synth/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj"
   "D:/synth/Src/uart.c" "D:/synth/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj"
+  "D:/synth/Src/waves.c" "D:/synth/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
