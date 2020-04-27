@@ -161,7 +161,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=ProjektAMK
+CMAKE_PROJECT_NAME:STATIC=Synth
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files (x86)/GNU Tools ARM Embedded/9 2019-q4-major/bin/arm-none-eabi-ranlib.exe
@@ -269,6 +269,12 @@ ProjektAMK_BINARY_DIR:STATIC=D:/synth/cmake-build-debug
 
 //Value Computed by CMake
 ProjektAMK_SOURCE_DIR:STATIC=D:/synth
+
+//Value Computed by CMake
+Synth_BINARY_DIR:STATIC=D:/synth/cmake-build-debug
+
+//Value Computed by CMake
+Synth_SOURCE_DIR:STATIC=D:/synth
 
 
 ########################

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ProjektAMK" targetName="ProjektAMK.elf" />
+      <config projectName="Synth" targetName="Synth.elf" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -11,34 +11,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a89a682a-d5e2-4159-8bf3-c91741c9291f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inc/waves.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/waves.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/arduino-project-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/arduino-project-settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="a89a682a-d5e2-4159-8bf3-c91741c9291f" name="Default Changelist" comment="added same basic wave generation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/uart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/uart.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjektAMK.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProjektAMK.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProjektAMK.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProjektAMK.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProjektAMK.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProjektAMK.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProjektAMK.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProjektAMK.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProjektAMK.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProjektAMK.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProjektAMK.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,19 +84,25 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD ProjektAMK">
+    <configuration name="Synth.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Synth" TARGET_NAME="Synth.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Synth" RUN_TARGET_NAME="Synth.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProjektAMK.elf" type="com.jetbrains.cidr.embedded.customgdbserver.type" factoryName="com.jetbrains.cidr.embedded.customgdbserver.factory" nameIsGenerated="true" PROGRAM_PARAMS="openocd -f interface/stlink-v2.cfg -f board/stm32f4discovery.cfg &quot;gdbport 3333&quot;" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjektAMK" TARGET_NAME="ProjektAMK.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="ProjektAMK" RUN_TARGET_NAME="ProjektAMK.elf">
       <custom-gdb-server version="1" gdb-connect="localhost:3333" executable="C:\openocd-0.10.0\bin\openocd.exe" warmup-ms="0" download-type="ALWAYS" reset-cmd="monitor reset" reset-after-download="true" />
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OCD ProjektAMK" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjektAMK" TARGET_NAME="ProjektAMK.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProjektAMK" RUN_TARGET_NAME="ProjektAMK.elf">
+    <configuration name="OCD ProjektAMK" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Synth" TARGET_NAME="Synth.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Synth" RUN_TARGET_NAME="Synth.elf">
       <openocd gdb-port="3333" telnet-port="4444" board-config="board/stm32f4discovery.cfg" reset-type="INIT" download-type="ALWAYS" />
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.Synth.elf" />
       <item itemvalue="Embedded GDB Server.ProjektAMK.elf" />
       <item itemvalue="OpenOCD Download &amp; Run.OCD ProjektAMK" />
     </list>
@@ -148,7 +134,8 @@
       <workItem from="1587811061623" duration="6687000" />
       <workItem from="1587832587536" duration="8974000" />
       <workItem from="1587931193253" duration="375000" />
-      <workItem from="1587932264851" duration="253000" />
+      <workItem from="1587932264851" duration="356000" />
+      <workItem from="1587974059778" duration="227000" />
     </task>
     <task id="LOCAL-00001" summary="UART finally working">
       <created>1587674204774</created>
@@ -157,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587674204863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added same basic wave generation">
+      <created>1587932544161</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587932544161</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,13 +159,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="UART finally working" />
-    <option name="LAST_COMMIT_MESSAGE" value="UART finally working" />
+    <MESSAGE value="added same basic wave generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added same basic wave generation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587626007947">
+    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587974311895">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587626007947" />
+    <state x="294" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587974311895" />
     <state x="585" y="307" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587597973195">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -180,10 +175,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587624800986" />
-    <state x="421" y="76" key="CommitChangelistDialog2" timestamp="1587674198929">
+    <state x="421" y="76" key="CommitChangelistDialog2" timestamp="1587974299743">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="421" y="76" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587674198929" />
+    <state x="421" y="76" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587974299743" />
     <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1587597052760">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

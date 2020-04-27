@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ProjektAMK.elf
+# Target rules for targets named Synth.elf
 
 # Build rule for target.
-ProjektAMK.elf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 ProjektAMK.elf
-.PHONY : ProjektAMK.elf
+Synth.elf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Synth.elf
+.PHONY : Synth.elf
 
 # fast build rule for target.
-ProjektAMK.elf/fast:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/build
-.PHONY : ProjektAMK.elf/fast
+Synth.elf/fast:
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/build
+.PHONY : Synth.elf/fast
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 
@@ -128,7 +128,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
@@ -137,7 +137,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i: Drivers/STM32F4xx_HAL_Driver/S
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
@@ -146,7 +146,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s: Drivers/STM32F4xx_HAL_Driver/S
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
@@ -155,7 +155,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i
@@ -164,7 +164,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s
@@ -173,7 +173,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
@@ -182,7 +182,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i
@@ -191,7 +191,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
@@ -200,7 +200,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
@@ -209,7 +209,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
@@ -218,7 +218,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
@@ -227,7 +227,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
@@ -236,7 +236,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
@@ -245,7 +245,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
@@ -254,7 +254,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
@@ -263,7 +263,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
@@ -272,7 +272,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
@@ -281,7 +281,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
@@ -290,7 +290,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.obj: Drivers/STM32F4xx_HAL_D
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
@@ -299,7 +299,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.i: Drivers/STM32F4xx_HAL_Dri
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
@@ -308,7 +308,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.s: Drivers/STM32F4xx_HAL_Dri
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
@@ -317,7 +317,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.obj: Drivers/STM32F4xx_HAL_
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
@@ -326,7 +326,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.i: Drivers/STM32F4xx_HAL_Dr
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
@@ -335,7 +335,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.s: Drivers/STM32F4xx_HAL_Dr
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
@@ -344,7 +344,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.obj: Drivers/STM32F4xx_H
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
@@ -353,7 +353,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.i: Drivers/STM32F4xx_HAL
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
@@ -362,7 +362,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.s: Drivers/STM32F4xx_HAL
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
@@ -371,7 +371,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.obj: Drivers/STM32F
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
@@ -380,7 +380,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.i: Drivers/STM32F4x
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
@@ -389,7 +389,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.s: Drivers/STM32F4x
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
@@ -398,7 +398,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj: Drivers/STM32F4xx_HAL_D
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
@@ -407,7 +407,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i: Drivers/STM32F4xx_HAL_Dri
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
@@ -416,7 +416,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s: Drivers/STM32F4xx_HAL_Dri
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
@@ -425,7 +425,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
@@ -434,7 +434,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
@@ -443,7 +443,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
@@ -452,7 +452,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
@@ -461,7 +461,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
@@ -470,7 +470,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
@@ -479,7 +479,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
@@ -488,7 +488,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
@@ -497,7 +497,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
@@ -506,7 +506,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
@@ -515,7 +515,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
@@ -524,7 +524,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj
@@ -533,7 +533,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.i
@@ -542,7 +542,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.s
@@ -551,7 +551,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj
@@ -560,7 +560,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.i
@@ -569,7 +569,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.s
@@ -578,7 +578,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
@@ -587,7 +587,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
@@ -596,7 +596,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
@@ -605,7 +605,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
@@ -614,7 +614,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
@@ -623,7 +623,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
@@ -632,7 +632,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
@@ -641,7 +641,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj: Drivers/STM32F4xx_HAL_D
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
@@ -650,7 +650,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i: Drivers/STM32F4xx_HAL_Dri
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
@@ -659,7 +659,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s: Drivers/STM32F4xx_HAL_Dri
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj
@@ -668,7 +668,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.obj: Drivers/STM32F4xx_HAL_
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.i
@@ -677,7 +677,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.i: Drivers/STM32F4xx_HAL_Dr
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s
@@ -686,7 +686,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.s: Drivers/STM32F4xx_HAL_Dr
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s
 
 Src/delay.obj: Src/delay.c.obj
@@ -695,7 +695,7 @@ Src/delay.obj: Src/delay.c.obj
 
 # target to build an object file
 Src/delay.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/delay.c.obj
 .PHONY : Src/delay.c.obj
 
 Src/delay.i: Src/delay.c.i
@@ -704,7 +704,7 @@ Src/delay.i: Src/delay.c.i
 
 # target to preprocess a source file
 Src/delay.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/delay.c.i
 .PHONY : Src/delay.c.i
 
 Src/delay.s: Src/delay.c.s
@@ -713,7 +713,7 @@ Src/delay.s: Src/delay.c.s
 
 # target to generate assembly for a file
 Src/delay.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/delay.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/delay.c.s
 .PHONY : Src/delay.c.s
 
 Src/main.obj: Src/main.c.obj
@@ -722,7 +722,7 @@ Src/main.obj: Src/main.c.obj
 
 # target to build an object file
 Src/main.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/main.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/main.c.obj
 .PHONY : Src/main.c.obj
 
 Src/main.i: Src/main.c.i
@@ -731,7 +731,7 @@ Src/main.i: Src/main.c.i
 
 # target to preprocess a source file
 Src/main.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/main.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/main.c.i
 .PHONY : Src/main.c.i
 
 Src/main.s: Src/main.c.s
@@ -740,7 +740,7 @@ Src/main.s: Src/main.c.s
 
 # target to generate assembly for a file
 Src/main.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/main.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/main.c.s
 .PHONY : Src/main.c.s
 
 Src/ring_buffer.obj: Src/ring_buffer.c.obj
@@ -749,7 +749,7 @@ Src/ring_buffer.obj: Src/ring_buffer.c.obj
 
 # target to build an object file
 Src/ring_buffer.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/ring_buffer.c.obj
 .PHONY : Src/ring_buffer.c.obj
 
 Src/ring_buffer.i: Src/ring_buffer.c.i
@@ -758,7 +758,7 @@ Src/ring_buffer.i: Src/ring_buffer.c.i
 
 # target to preprocess a source file
 Src/ring_buffer.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/ring_buffer.c.i
 .PHONY : Src/ring_buffer.c.i
 
 Src/ring_buffer.s: Src/ring_buffer.c.s
@@ -767,7 +767,7 @@ Src/ring_buffer.s: Src/ring_buffer.c.s
 
 # target to generate assembly for a file
 Src/ring_buffer.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/ring_buffer.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/ring_buffer.c.s
 .PHONY : Src/ring_buffer.c.s
 
 Src/stm32f4xx_hal_msp.obj: Src/stm32f4xx_hal_msp.c.obj
@@ -776,7 +776,7 @@ Src/stm32f4xx_hal_msp.obj: Src/stm32f4xx_hal_msp.c.obj
 
 # target to build an object file
 Src/stm32f4xx_hal_msp.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/stm32f4xx_hal_msp.c.obj
 .PHONY : Src/stm32f4xx_hal_msp.c.obj
 
 Src/stm32f4xx_hal_msp.i: Src/stm32f4xx_hal_msp.c.i
@@ -785,7 +785,7 @@ Src/stm32f4xx_hal_msp.i: Src/stm32f4xx_hal_msp.c.i
 
 # target to preprocess a source file
 Src/stm32f4xx_hal_msp.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/stm32f4xx_hal_msp.c.i
 .PHONY : Src/stm32f4xx_hal_msp.c.i
 
 Src/stm32f4xx_hal_msp.s: Src/stm32f4xx_hal_msp.c.s
@@ -794,7 +794,7 @@ Src/stm32f4xx_hal_msp.s: Src/stm32f4xx_hal_msp.c.s
 
 # target to generate assembly for a file
 Src/stm32f4xx_hal_msp.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_hal_msp.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/stm32f4xx_hal_msp.c.s
 .PHONY : Src/stm32f4xx_hal_msp.c.s
 
 Src/stm32f4xx_it.obj: Src/stm32f4xx_it.c.obj
@@ -803,7 +803,7 @@ Src/stm32f4xx_it.obj: Src/stm32f4xx_it.c.obj
 
 # target to build an object file
 Src/stm32f4xx_it.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/stm32f4xx_it.c.obj
 .PHONY : Src/stm32f4xx_it.c.obj
 
 Src/stm32f4xx_it.i: Src/stm32f4xx_it.c.i
@@ -812,7 +812,7 @@ Src/stm32f4xx_it.i: Src/stm32f4xx_it.c.i
 
 # target to preprocess a source file
 Src/stm32f4xx_it.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/stm32f4xx_it.c.i
 .PHONY : Src/stm32f4xx_it.c.i
 
 Src/stm32f4xx_it.s: Src/stm32f4xx_it.c.s
@@ -821,7 +821,7 @@ Src/stm32f4xx_it.s: Src/stm32f4xx_it.c.s
 
 # target to generate assembly for a file
 Src/stm32f4xx_it.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/stm32f4xx_it.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/stm32f4xx_it.c.s
 .PHONY : Src/stm32f4xx_it.c.s
 
 Src/syscalls.obj: Src/syscalls.c.obj
@@ -830,7 +830,7 @@ Src/syscalls.obj: Src/syscalls.c.obj
 
 # target to build an object file
 Src/syscalls.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/syscalls.c.obj
 .PHONY : Src/syscalls.c.obj
 
 Src/syscalls.i: Src/syscalls.c.i
@@ -839,7 +839,7 @@ Src/syscalls.i: Src/syscalls.c.i
 
 # target to preprocess a source file
 Src/syscalls.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/syscalls.c.i
 .PHONY : Src/syscalls.c.i
 
 Src/syscalls.s: Src/syscalls.c.s
@@ -848,7 +848,7 @@ Src/syscalls.s: Src/syscalls.c.s
 
 # target to generate assembly for a file
 Src/syscalls.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/syscalls.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/syscalls.c.s
 .PHONY : Src/syscalls.c.s
 
 Src/sysmem.obj: Src/sysmem.c.obj
@@ -857,7 +857,7 @@ Src/sysmem.obj: Src/sysmem.c.obj
 
 # target to build an object file
 Src/sysmem.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/sysmem.c.obj
 .PHONY : Src/sysmem.c.obj
 
 Src/sysmem.i: Src/sysmem.c.i
@@ -866,7 +866,7 @@ Src/sysmem.i: Src/sysmem.c.i
 
 # target to preprocess a source file
 Src/sysmem.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/sysmem.c.i
 .PHONY : Src/sysmem.c.i
 
 Src/sysmem.s: Src/sysmem.c.s
@@ -875,7 +875,7 @@ Src/sysmem.s: Src/sysmem.c.s
 
 # target to generate assembly for a file
 Src/sysmem.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/sysmem.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/sysmem.c.s
 .PHONY : Src/sysmem.c.s
 
 Src/system_stm32f4xx.obj: Src/system_stm32f4xx.c.obj
@@ -884,7 +884,7 @@ Src/system_stm32f4xx.obj: Src/system_stm32f4xx.c.obj
 
 # target to build an object file
 Src/system_stm32f4xx.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/system_stm32f4xx.c.obj
 .PHONY : Src/system_stm32f4xx.c.obj
 
 Src/system_stm32f4xx.i: Src/system_stm32f4xx.c.i
@@ -893,7 +893,7 @@ Src/system_stm32f4xx.i: Src/system_stm32f4xx.c.i
 
 # target to preprocess a source file
 Src/system_stm32f4xx.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/system_stm32f4xx.c.i
 .PHONY : Src/system_stm32f4xx.c.i
 
 Src/system_stm32f4xx.s: Src/system_stm32f4xx.c.s
@@ -902,7 +902,7 @@ Src/system_stm32f4xx.s: Src/system_stm32f4xx.c.s
 
 # target to generate assembly for a file
 Src/system_stm32f4xx.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/system_stm32f4xx.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/system_stm32f4xx.c.s
 .PHONY : Src/system_stm32f4xx.c.s
 
 Src/uart.obj: Src/uart.c.obj
@@ -911,7 +911,7 @@ Src/uart.obj: Src/uart.c.obj
 
 # target to build an object file
 Src/uart.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/uart.c.obj
 .PHONY : Src/uart.c.obj
 
 Src/uart.i: Src/uart.c.i
@@ -920,7 +920,7 @@ Src/uart.i: Src/uart.c.i
 
 # target to preprocess a source file
 Src/uart.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/uart.c.i
 .PHONY : Src/uart.c.i
 
 Src/uart.s: Src/uart.c.s
@@ -929,7 +929,7 @@ Src/uart.s: Src/uart.c.s
 
 # target to generate assembly for a file
 Src/uart.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/uart.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/uart.c.s
 .PHONY : Src/uart.c.s
 
 Src/waves.obj: Src/waves.c.obj
@@ -938,7 +938,7 @@ Src/waves.obj: Src/waves.c.obj
 
 # target to build an object file
 Src/waves.c.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/waves.c.obj
 .PHONY : Src/waves.c.obj
 
 Src/waves.i: Src/waves.c.i
@@ -947,7 +947,7 @@ Src/waves.i: Src/waves.c.i
 
 # target to preprocess a source file
 Src/waves.c.i:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.i
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/waves.c.i
 .PHONY : Src/waves.c.i
 
 Src/waves.s: Src/waves.c.s
@@ -956,7 +956,7 @@ Src/waves.s: Src/waves.c.s
 
 # target to generate assembly for a file
 Src/waves.c.s:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Src/waves.c.s
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Src/waves.c.s
 .PHONY : Src/waves.c.s
 
 Startup/startup_stm32f407vgtx.obj: Startup/startup_stm32f407vgtx.s.obj
@@ -965,7 +965,7 @@ Startup/startup_stm32f407vgtx.obj: Startup/startup_stm32f407vgtx.s.obj
 
 # target to build an object file
 Startup/startup_stm32f407vgtx.s.obj:
-	$(MAKE) -f CMakeFiles\ProjektAMK.elf.dir\build.make CMakeFiles/ProjektAMK.elf.dir/Startup/startup_stm32f407vgtx.s.obj
+	$(MAKE) -f CMakeFiles\Synth.elf.dir\build.make CMakeFiles/Synth.elf.dir/Startup/startup_stm32f407vgtx.s.obj
 .PHONY : Startup/startup_stm32f407vgtx.s.obj
 
 # Help Target
@@ -974,7 +974,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... ProjektAMK.elf
+	@echo ... Synth.elf
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
