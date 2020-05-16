@@ -10,7 +10,7 @@
 #include "uart.h"
 #include "delay.h"
 #include "waves.h"
-
+#include "CS43L22.h"
 
 void SystemClock_Config(void);
 
@@ -26,25 +26,6 @@ void LED_Init()
 	GPIO_InitStruct.Speed = GPIO_SPEED_HIGH;
 	HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 }
-
-/*
-void ADC_Init(void)
-{
-
-    __GPIOC_CLK_ENABLE();
-    GPIO_InitTypeDef gpio;
-    gpio.Pin = GPIO_PIN_1;
-    gpio.Mode = GPIO_MODE_ANALOG;
-    HAL_GPIO_Init(GPIOC, &gpio);
-
-    __ADC_CLK_ENABLE();
-    ADC_HandleTypeDef adc;
-    adc.Init.Resolution = ADC_RESOLUTION12b;
-    adc.Init.ClockPrescaler = ADC_CLOCKPRESCALER_PCLK_DIV8;
-    adc.Init.DataAlign = ADC_DATAALIGN_RIGHT;
-    adc.Init.ContinuousConvMode = ENABLE;
-}
-*/
 
 typedef struct KeyProperties
 {
@@ -69,23 +50,18 @@ int main(void)
 
 	UARTInit();
 
+	if(false == CS43L22_Init())
+	{
+		UART_WriteString("CS43L22 init error\n\r");
+	}
+
 	int16_t sample = 0;
 	uint16_t time1 = 0;
-	uint64_t time2 = 0;
+	uint16_t time2 = 0;
+
 	while (1)
 	{
 
-//		sample = GenerateSineWave(200.0, 0.1);
-		sample = GenerateSquareSample(200.0, 0.1, 0.5, &time1);
-		sample += GenerateSineSample(125.7, 0.1, &time2);
-//		sample += GenerateTriangleSample(200.0, 0.1, &time2);
-//		sample = GenerateSawtoothWave(4410.0, 0.5, 'n');
-		UART_WriteData(&sample, sizeof(sample));
-//		UART_WriteString("Sample: ");
-//		sprintf(tab, "%d", sample);
-//        UART_WriteString(tab);
-//        UART_PutChar('\n');
-//        UART_PutChar('\r');
 		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_13);
 		Delay(100);
 

@@ -6,7 +6,7 @@
 #include "math.h"
 #include "limits.h"
 
-#define SAMPLE_RATE 44100
+#define SAMPLE_RATE 48000
 
 int16_t GenerateSineSample(double frequency, double amplitude, uint16_t *time)
 {

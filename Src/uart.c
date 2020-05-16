@@ -25,16 +25,16 @@ static UART_HandleTypeDef uart;
 bool UART_PutChar(char c)
 {
 
-    //__disable_irq();
+    __disable_irq();
     if (RingBuffer_PutChar(&UART_RingBuffer_Tx, c))
     {
         __HAL_UART_ENABLE_IT(&uart, UART_IT_TXE);
-        //__enable_irq();
+        __enable_irq();
         return true;
     }
     else
     {
-        //__enable_irq();
+        __enable_irq();
         return false;
     }
 }
@@ -77,14 +77,14 @@ size_t UART_WriteString(const char* string)
 bool UART_GetChar(char* c)
 {
 
-    //__disable_irq();
+    __disable_irq();
     if (!RingBuffer_GetChar(&UART_RingBuffer_Rx, c))
     {
-        //__enable_irq();
+        __enable_irq();
         return false;
     }
 
-    //__disable_irq();
+    __disable_irq();
     return true;
 }
 
@@ -174,7 +174,7 @@ bool UARTInit(void)
 
     //właczenie przerwań od RX
     __HAL_UART_ENABLE_IT(&uart, UART_IT_RXNE);
-    HAL_NVIC_SetPriority(UART4_IRQn, 1, 0);
+    HAL_NVIC_SetPriority(UART4_IRQn, 1, 1);
     HAL_NVIC_EnableIRQ(UART4_IRQn);
 
     return true;
