@@ -52,7 +52,7 @@ bool I2C_ReadData(uint8_t slaveAddress, uint8_t regAddress, uint8_t *data, uint1
 {
 	char buf[16];
 
-	UART_WriteString("czytam\n\r");
+//	UART_WriteString("czytam\n\r");
 
 	__HAL_I2C_ENABLE(&i2cHandle);
 	//checking if I2C is busy
@@ -79,8 +79,8 @@ bool I2C_ReadData(uint8_t slaveAddress, uint8_t regAddress, uint8_t *data, uint1
 	//sengind map byte
 	I2C1->DR = (regAddress);
 	I2C1->CR1 |= I2C_CR1_STOP;
-	sprintf(buf,"I2C1->DR: 0x%x\n\r", I2C1->DR);
-	UART_WriteString(buf);
+//	sprintf(buf,"I2C1->DR: 0x%x\n\r", I2C1->DR);
+//	UART_WriteString(buf);
 
 	I2C1->CR1 |= I2C_CR1_START;
 
@@ -91,8 +91,8 @@ bool I2C_ReadData(uint8_t slaveAddress, uint8_t regAddress, uint8_t *data, uint1
 	//sending slave address with write bit
 	I2C1->DR = (slaveAddress | I2C_READ);
 
-	sprintf(buf,"I2C1->DR: 0x%x\n\r", I2C1->DR);
-	UART_WriteString(buf);
+//	sprintf(buf,"I2C1->DR: 0x%x\n\r", I2C1->DR);
+//	UART_WriteString(buf);
 	//waiting for completing sending salve addr
 	while(!__HAL_I2C_GET_FLAG(&i2cHandle, I2C_FLAG_ADDR))
 	{
@@ -110,8 +110,8 @@ bool I2C_ReadData(uint8_t slaveAddress, uint8_t regAddress, uint8_t *data, uint1
 
 	I2C1->CR1 |= I2C_CR1_STOP;
 
-	sprintf(buf,"I2C1->DR: 0x%x\n\r", *data);
-	UART_WriteString(buf);
+//	sprintf(buf,"I2C1->DR: 0x%x\n\r", *data);
+//	UART_WriteString(buf);
 
 	__HAL_I2C_DISABLE(&i2cHandle);
 
@@ -168,7 +168,7 @@ size_t I2C_WriteRegister(uint8_t slaveAddress, uint8_t regAddress, uint8_t *data
 
 size_t I2C_SendData(uint8_t slaveAddress, uint8_t regAddress, uint8_t *data)
 {
-	UART_WriteString("wysylam\n\r");
+//	UART_WriteString("wysylam\n\r");
 	size_t bytesSended = 0;
 
 	__HAL_I2C_ENABLE(&i2cHandle);
@@ -287,8 +287,6 @@ bool I2C1_Init(void)
 		return false;
 	}
 
-	//__HAL_I2C_ENABLE(i2cHandle);
-	//__HAL_I2C_ENABLE_IT(&i2cHandle, I2C_IT_EVT | I2C_IT_BUF);
 	HAL_NVIC_SetPriority(I2C1_EV_IRQn,1,2);
 	HAL_NVIC_EnableIRQ(I2C1_EV_IRQn);
 

@@ -5,10 +5,6 @@
 #ifndef I2C_H
 #define I2C_H
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdint.h>
@@ -31,9 +27,5 @@ size_t I2C_SendData(uint8_t slaveAddress, uint8_t regAddress, uint8_t *data);
 void I2C1_Handler(void);
 
 bool I2C1_Init(void);
-
-#ifdef __cplusplus
-}
-#endif
 
 #endif //I2C_H

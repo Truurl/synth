@@ -5,6 +5,8 @@
 #ifndef PROJEKTAMK_UART_H
 #define PROJEKTAMK_UART_H
 
+#include <stdbool.h>
+
 bool UART_PutChar(char c);
 
 size_t UART_WriteData(const void* data, size_t dataSize);

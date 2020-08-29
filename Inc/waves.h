@@ -5,14 +5,12 @@
 #ifndef WAVES_H
 #define WAVES_H
 
-#define SAMPLE_RATE 44100
+extern const int16_t sine[48000];
 
-int16_t GenerateSineSample(double frequency, double amplitude, uint16_t *time);
+extern const int16_t square[48000];
 
-int16_t GenerateSquareSample(double frequency, double amplitude, double dutyCycle, uint16_t *time);
+extern const int16_t triangle[48000];
 
-int16_t GenerateTriangleSample(double frequency, double amplitude, uint16_t *time);
-
-int16_t GenerateSawtoothSample(double frequency, double amplitude, char slope, uint16_t *time);
+extern const int16_t sawtooth[48000];
 
 #endif //WAVES_H
