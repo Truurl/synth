@@ -14,11 +14,18 @@
 #include "uart.h"
 #include "delay.h"
 
-size_t SPI2_SendData(uint8_t *data, size_t bytes, uint16_t timeout);
+struct Screen{
+    uint8_t frame[6][84];
+//    uint8_t row;
+//    uint8_t column;
+};
+
+size_t SPI1_SendData(uint8_t *data, uint16_t timeout);
 
 void SPI2_IRQHandler(void);
 
-bool SPI2_Init(void);
+bool SPI1_Init(void);
 
+bool SPI_DMA_Init(void);
 
 #endif //SYNTH_SPI_H

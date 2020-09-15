@@ -12,6 +12,7 @@
 #include "i2c.h"
 #include "i2s.h"
 #include "delay.h"
+#include "lcd.h"
 
 #define CS43L22_ADDR (0x94)
 //Power setting
@@ -181,6 +182,22 @@
 //************************
 #define STATUS_REG (0x2e)
 
+
+//Keyboard consts
+
+#define C3_COL (0)
+#define CIS_COL (10)
+#define D3_COL (12)
+#define DIS_COL (22)
+#define E3_COL (24)
+#define F3_COL (37)
+#define FIS_COL (47)
+#define G3_COL (49)
+#define GIS_COL (59)
+#define A3_COL (61)
+#define AIS_COL (71)
+#define B3_COL (73)
+
 typedef struct KeyNode
 {
     double frequency;
@@ -192,18 +209,20 @@ typedef struct KeyNode
     int16_t squareSamples[400];
     int16_t triangleSamples[400];
     int16_t sawtoothSamples[400];
-    struct  KeyNode* nextKey;
+    uint8_t column;
+    //    struct  KeyNode* nextKey;
 }KeyNode;
 
-struct KeyNode* FillKey(double frequency, uint32_t gpioPin, GPIO_TypeDef *gpio);
+struct KeyNode* FillKey(double frequency, uint32_t gpioPin, GPIO_TypeDef *gpio, uint8_t column, char keyAlign);
 
 bool AddKeyToList(KeyNode *key);
 
 void KeyBoardInit(void);
 
-int16_t GetSample(uint8_t wave);
+int16_t GetSample();
+
+void GetWave();
 
 bool CS43L22_Init(void);
-
 
 #endif //CS43L22_H

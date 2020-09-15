@@ -15,52 +15,23 @@
 #include "CS43L22.h"
 #include "spi.h"
 #include "lcd.h"
+#include "stm32f4xx_hal_tim.h"
 //#include "arm_math.h"
 
 /*
  * TODO:
  * (1) osluga ekranu i domysla bitmapa
- * (2) przycisk do zmianny fali i scali
+ * (2) przycisk do zmianny fali
  * (3) komentarze i ogranizacja projektu
  * */
-
-
-KeyNode Tones[7];
-
-uint8_t Wave = 1;
 
 void SystemClock_Config(void);
 
 static void MX_GPIO_Init(void);
 
-static DAC_HandleTypeDef dacHandle;
-
-//SPI_HandleTypeDef spiHandle;
-
 I2S_HandleTypeDef i2sHandle;
 
-void DAC_Init(void)
-{
-
-	__GPIOA_CLK_ENABLE();
-
-	GPIO_InitTypeDef gpio;
-	gpio.Mode = GPIO_MODE_ANALOG;
-	gpio.Pin = GPIO_PIN_4;
-
-	HAL_GPIO_Init(GPIOA, &gpio);
-
-	__HAL_RCC_DAC_CLK_ENABLE();
-
-	dacHandle.Instance = DAC1;
-	dacHandle.Instance->CR |= DAC_CR_EN1 | DAC_CR_WAVE1_1 | DAC_CR_MAMP1_3;
-
-	HAL_DAC_Init(&dacHandle);
-
-	HAL_DAC_Start(&dacHandle, DAC_CHANNEL_1);
-
-
-}
+uint8_t Wave;
 
 void LED_Init()
 {
@@ -78,6 +49,51 @@ void LED_Init()
 	HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 }
 
+static TIM_HandleTypeDef TIM2_InitStruct;
+
+bool TIM2_Init(uint16_t period)
+{
+    __TIM2_CLK_ENABLE();
+
+//    TIM2->CR1 |= TIM_CR1_DIR;
+//    TIM2->PSC = 1000;
+//    TIM2->ARR = 420000;
+//    TIM2->DIER |= TIM_DIER_UIE;
+//    TIM2->EGR |= TIM_EGR_UG;
+
+    TIM2_InitStruct.Instance = TIM2;
+    TIM2_InitStruct.Init.Prescaler = 42000;
+    TIM2_InitStruct.Init.CounterMode = TIM_COUNTERMODE_UP;
+    TIM2_InitStruct.Init.Period = 2 * period;
+    TIM2_InitStruct.Init.ClockDivision = 0;
+
+    if(HAL_OK != HAL_TIM_Base_Init(&TIM2_InitStruct))
+    {
+        return false;
+    }
+
+
+//    __HAL_TIM_ENABLE_IT(&TIM2_InitStruct, TIM2_IRQn);
+    HAL_NVIC_SetPriority(TIM2_IRQn, 2, 0);
+//    HAL_NVIC_EnableIRQ(TIM2_IRQn);
+
+//    HAL_TIM_Base_Start_IT(&TIM2_InitStruct);
+
+    return true;
+}
+
+
+void TIM2_IRQHandler(void)
+{
+    HAL_TIM_IRQHandler(&TIM2_InitStruct);
+}
+
+//void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+//{
+//    HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_14);
+////    LCD_SendFrame();
+//}
+
 int main(void)
 {
 
@@ -93,21 +109,14 @@ int main(void)
 
 	UARTInit();
 
+    TIM2_Init(1000);
+
     if(false == CS43L22_Init())
 	{
 		UART_WriteString("CS43L22 init error\n\r");
 	}
 
 	int16_t sample = 0;
-    uint64_t time = 0;
-	uint64_t time1 = 0;
-	uint64_t time2 = 0;
-    uint64_t time3 = 0;
-    uint64_t time4 = 0;
-    uint64_t time5 = 0;
-    uint64_t time6 = 0;
-    uint64_t time7 = 0;
-
 	char buffer[32];
     uint8_t data;
 
@@ -177,6 +186,13 @@ int main(void)
         UART_WriteString("LCD init error\n\r");
     }
 
+//    for(size_t index = 0; index < sizeof(bytemap); ++index)
+//    {
+//        sprintf(buffer, "%d, ", bytemap[index]);
+//        UART_WriteString(buffer);
+//    }
+
+
     i2sHandle.Instance = SPI3;
     i2sHandle.Init.Mode = I2S_MODE_MASTER_TX;
     i2sHandle.Init.Standard = I2S_STANDARD_PHILIPS;
@@ -188,24 +204,11 @@ int main(void)
     i2sHandle.Init.FullDuplexMode = I2S_FULLDUPLEXMODE_DISABLE;
 
     char Sbuf[16];
-    double double_sample = 0.0;
-
-//    for(uint64_t i = 0; i < 48000; ++i)
-//    {
-////        sample = GenerateSineSample(262.0, 1.0, &i);
-//        sample = GenerateSineSample(262.0, 0.25, &i) + GenerateSineSample(2.0 * 262.0, 0.22, &i)
-//                + GenerateSineSample(4.0 * 262.0, 0.02, &i);
-//        double_sample = (double) sample / INT16_MAX;
-//        sprintf(buf, "%f\n\r", double_sample);
-//        UART_WriteString(buf);
-//        Delay(1);
-//    }
-
 
 	while(1)
 	{
 //	    Delay(1);
-        sample = GetSample(Wave);
+        sample = GetSample();
 //
 
         if(HAL_OK == HAL_I2S_Transmit(&i2sHandle, &sample, 2, 0))
@@ -217,8 +220,9 @@ int main(void)
             UART_WriteString("right channel\n\r");
         }
 
+        GetWave();
 
-		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_13);
+        HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_13);
 
 	}
 
