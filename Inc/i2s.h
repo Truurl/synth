@@ -11,12 +11,12 @@
 #include "stm32f4xx_hal_i2s.h"
 #include "stm32f4xx_hal_spi.h"
 #include "stm32f4xx_hal_gpio.h"
-#include "sampleGeneration.h"
-#include "uart.h"
 
+/**
+ * @brief Initialization of I2S3
+ * @return True if succeeded, otherwise false
+ */
 bool I2S3_Init(void);
-
-void SPI3_Handler(void);
 
 #endif //I2S_H
 

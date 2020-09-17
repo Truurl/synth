@@ -6,14 +6,16 @@
 #define CS43L22_H
 
 #include <stdbool.h>
+#include <stdint.h>
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_gpio.h"
-#include "uart.h"
 #include "i2c.h"
-#include "i2s.h"
-#include "delay.h"
-#include "lcd.h"
 
+/*
+ * Few defines for better readability
+ */
+
+//DAC's address
 #define CS43L22_ADDR (0x94)
 //Power setting
 //*******************************
@@ -96,63 +98,6 @@
 #define ANALOG_IN_2 (0x02)
 #define ANALOG_IN_3 (0x04)
 #define ANALOG_IN_4 (0x08)
-
-//Beep registers and options
-//**************************
-#define BEEP_FRQ_REG (0x1c)
-#define BEEP_VOL_REG (0x1d)
-#define BEEP_TONE_REG (0x1e)
-//Beep frequency
-#define BEEP_260	(0x00)
-#define BEEP_521	(0x10)
-#define BEEP_585	(0x20)
-#define BEEP_666	(0x30)
-#define BEEP_705	(0x40)
-#define BEEP_774	(0x50)
-#define BEEP_888	(0x60)
-#define BEEP_1000	(0x70)
-#define BEEP_1043	(0x80)
-#define BEEP_1200	(0x90)
-#define BEEP_1333	(0xa0)
-#define BEEP_1411	(0xb0)
-#define BEEP_1600	(0xc0)
-#define BEEP_1724	(0xd0)
-#define BEEP_2000	(0xe0)
-#define BEEP_2182	(0xf0)
-//Beep on time
-#define BEEP_ON_0_08 (0x00)
-#define BEEP_ON_0_43 (0x01)
-#define BEEP_ON_0_78 (0x02)
-#define BEEP_ON_1_20 (0x03)
-#define BEEP_ON_1_50 (0x04)
-#define BEEP_ON_1_80 (0x05)
-#define BEEP_ON_2_20 (0x06)
-#define BEEP_ON_2_50 (0x07)
-#define BEEP_ON_2_80 (0x08)
-#define BEEP_ON_3_20 (0x09)
-#define BEEP_ON_3_50 (0x0a)
-#define BEEP_ON_3_80 (0x0b)
-#define BEEP_ON_4_20 (0x0c)
-#define BEEP_ON_4_50 (0x0d)
-#define BEEP_ON_4_80 (0x0e)
-#define BEEP_ON_5_20 (0x0f)
-//Beep off time
-#define BEEP_OFF_1_23 (0x00)
-#define BEEP_OFF_2_58 (0x20)
-#define BEEP_OFF_3_90 (0x40)
-#define BEEP_OFF_5_20 (0x60)
-#define BEEP_OFF_6_60 (0x80)
-#define BEEP_OFF_8_05 (0x90)
-#define BEEP_OFF_9_35 (0xc0)
-#define BEEP_OFF_10_80 (0xe0)
-//beep configuration
-#define BEEP_OFF (0x00)
-#define BEEP_SINGLE (0x40)
-#define BEEP_MULTIPLE (0x80)
-#define BEEP_CONT (0xc0)
-#define BEEP_MIX_ON (0x00)
-#define BEEP_MIX_OFF (0x20)
-
 //Volume register
 //**************************
 //Master volume
@@ -182,47 +127,11 @@
 //************************
 #define STATUS_REG (0x2e)
 
-
-//Keyboard consts
-
-#define C3_COL (0)
-#define CIS_COL (10)
-#define D3_COL (12)
-#define DIS_COL (22)
-#define E3_COL (24)
-#define F3_COL (37)
-#define FIS_COL (47)
-#define G3_COL (49)
-#define GIS_COL (59)
-#define A3_COL (61)
-#define AIS_COL (71)
-#define B3_COL (73)
-
-typedef struct KeyNode
-{
-    double frequency;
-    uint16_t samplesPerCycle;
-    uint64_t time;
-    GPIO_TypeDef *gpiox;
-    uint16_t gpioPin;
-    int16_t sineSamples[400];
-    int16_t squareSamples[400];
-    int16_t triangleSamples[400];
-    int16_t sawtoothSamples[400];
-    uint8_t column;
-    //    struct  KeyNode* nextKey;
-}KeyNode;
-
-struct KeyNode* FillKey(double frequency, uint32_t gpioPin, GPIO_TypeDef *gpio, uint8_t column, char keyAlign);
-
-bool AddKeyToList(KeyNode *key);
-
-void KeyBoardInit(void);
-
-int16_t GetSample();
-
-void GetWave();
-
+/**
+ * @brief Function for initializing DAC
+ *
+ * @return True if initializing is successful otherwise false
+ */
 bool CS43L22_Init(void);
 
 #endif //CS43L22_H

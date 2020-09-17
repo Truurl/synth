@@ -16,12 +16,6 @@
 #include "delay.h"
 #include "uart.h"
 
-//#define LCD_GPIO (GPIOB)
-
-//#define COMD_PIN (GPIO_PIN_14)
-//#define RST_PIN (GPIO_PIN_11)
-//#define CE_PIN (GPIO_PIN_12)
-
 #define LCD_GPIO (GPIOA)
 #define COMD_PIN (GPIO_PIN_3)
 #define CE_PIN (GPIO_PIN_2)
@@ -73,38 +67,117 @@
 //Vop CONTROL
 #define VOP_CONTROL (0x80)
 
+// Positions of symbols on LCD
+#define SINE_UPPER_ROW (uint8_t) (1)
+#define SINE_LOWER_ROW (uint8_t) (2)
+#define SINE_START_COL (uint8_t) (13)
+#define SINE_BYTEMAP_SIZE (uint8_t) (44)
+
+#define SQUARE_UPPER_ROW (uint8_t) (1)
+#define SQUARE_LOWER_ROW (uint8_t) (2)
+#define SQUARE_START_COL (uint8_t) (49)
+#define SQUARE_BYTEMAP_SIZE (uint8_t) (42)
+
+#define SAWTOOTH_UPPER_ROW (uint8_t) (3)
+#define SAWTOOTH_LOWER_ROW (uint8_t) (4)
+#define SAWTOOTH_START_COL (uint8_t) (13)
+#define SAWTOOTH_BYTEMAP_SIZE (uint8_t) (42)
+
+#define TRIANGLE_UPPER_ROW (uint8_t) (3)
+#define TRIANGLE_LOWER_ROW (uint8_t) (4)
+#define TRIANGLE_START_COL (uint8_t) (49)
+#define TRIANGLE_BYTEMAP_SIZE (uint8_t) (42)
+
+/**
+ * @typedef Pointer to function drawing something on LCD screen,
+ * Its array of 4, because there are four bytemaps, each for wave
+ */
 typedef void (*LCD_FuncPtr[4]) (void);
 
+// Used by keyboard.h to draw normal wave symbol
 extern LCD_FuncPtr lcd_draw_array;
-
+// Used by keyboard.h to draw inverse wave symbol
 extern LCD_FuncPtr lcd_inverse_array;
 
+/**
+ * @brief Sends command to LCD screen
+ * @param command Command for LCD screen
+ * @retval nothing
+ */
 void LCD_SendCommand(uint8_t command);
 
+/**
+ * @brief Sends data to LCD screen
+ * @param data Data to be writen on LCD screen
+ * @retval nothing
+ */
 void LCD_SendData(uint8_t data);
 
-void LCD_FillRow(uint8_t row, uint8_t column, uint8_t length);
+/**
+ * @brief Sets cursor in specific position
+ * @param row Position Y of cursor, from 0 to 5, counted from top
+ * @param column Position X of cursor, from 0 to 83, counted from left
+ */
+void LCD_SetCursor(uint8_t row, uint8_t column);
 
-void LCD_ClearRow(uint8_t row, uint8_t column, uint8_t length);
-
+/**
+ * @brief Draw sine symbol on LCD
+ * @retval nothing
+ */
 void LCD_DrawSine(void);
 
+/**
+ * @brief Draw inverse sine symbol on LCD
+ * @retval nothing
+ */
 void LCD_InverseSine(void);
 
+/**
+ * @brief Draw square symbol on LCD
+ * @retval nothing
+ */
 void LCD_DrawSquare(void);
 
+/**
+ * @brief Draws inverse square symbol on LCD
+ * @retval nothing
+ */
 void LCD_InverseSquare(void);
 
+/**
+ * @brief Draws sawtooth symbol on LCD
+ * @retval nothing
+ */
 void LCD_DrawSawtooth(void);
 
+/**
+ * @brief Draws inverse sawtooth symbol on LCD
+ * @retval nothing
+ */
 void LCD_InverseSawtooth(void);
 
+/**
+ * @brief Draws triangle symbol on LCD
+ * @retval nothing
+ */
 void LCD_DrawTriangle(void);
 
+/**
+ * @brief Draws inverse triangle symbol on LCD
+ * @retval nothing
+ */
 void LCD_InverseTriangle(void);
 
-bool LCD_Init(void);
-
+/**
+ * @brief Sends default bytemap to LCD
+ * @retval nothing
+ */
 void LCD_SendFrame();
+
+/**
+ * @brief Initializes LCD screen
+ * @retval True if succeeded, otherwise falls
+ */
+bool LCD_Init(void);
 
 #endif //SYNTH_LCD_H

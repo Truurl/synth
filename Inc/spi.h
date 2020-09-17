@@ -10,22 +10,11 @@
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_gpio.h"
 #include "stm32f4xx_hal_spi.h"
-#include "stm32f4xx_hal_tim.h"
-#include "uart.h"
-#include "delay.h"
 
-struct Screen{
-    uint8_t frame[6][84];
-//    uint8_t row;
-//    uint8_t column;
-};
-
-size_t SPI1_SendData(uint8_t *data, uint16_t timeout);
-
-void SPI2_IRQHandler(void);
-
+/*
+ * @brief Initializes SPI1 for LCD screem
+ * @return True if succeed, otherwise false
+ */
 bool SPI1_Init(void);
-
-bool SPI_DMA_Init(void);
 
 #endif //SYNTH_SPI_H

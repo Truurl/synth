@@ -4,10 +4,10 @@
 
 #include "lcd.h"
 
+//SPI handle for sending via HAL functions
 SPI_HandleTypeDef SPI_Handle;
 
-struct Screen screen;
-
+//Default bytemap
 const unsigned char bytemap [] = {
         //first row
         0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
@@ -45,7 +45,7 @@ const unsigned char bytemap [] = {
         0x18, 0x06, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
         0x00, 0x00, 0x00, 0x00,
         //sixth row
-        0x00, 0x0C, 0x30, 0x40, 0x30, 0x0C, 0x00, 0x38, 0x44, 0x44, 0x38, 0x00, 0x7C, 0x40, 0x40, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
         0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
         0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
         0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
@@ -53,26 +53,7 @@ const unsigned char bytemap [] = {
         0x00, 0x00, 0x00, 0x00,
 };
 
-#define SINE_UPPER_ROW (uint8_t) (1)
-#define SINE_LOWER_ROW (uint8_t) (2)
-#define SINE_START_COL (uint8_t) (13)
-#define SINE_BYTEMAP_SIZE (uint8_t) (44)
-
-#define SQUARE_UPPER_ROW (uint8_t) (1)
-#define SQUARE_LOWER_ROW (uint8_t) (2)
-#define SQUARE_START_COL (uint8_t) (49)
-#define SQUARE_BYTEMAP_SIZE (uint8_t) (42)
-
-#define SAWTOOTH_UPPER_ROW (uint8_t) (3)
-#define SAWTOOTH_LOWER_ROW (uint8_t) (4)
-#define SAWTOOTH_START_COL (uint8_t) (13)
-#define SAWTOOTH_BYTEMAP_SIZE (uint8_t) (42)
-
-#define TRIANGLE_UPPER_ROW (uint8_t) (3)
-#define TRIANGLE_LOWER_ROW (uint8_t) (4)
-#define TRIANGLE_START_COL (uint8_t) (49)
-#define TRIANGLE_BYTEMAP_SIZE (uint8_t) (42)
-
+// Sine bytemap
 const uint8_t SineBytemap[] = {
 
         0x00, 0x80 ,0x70, 0x0C, 0x02, 0x01, 0x01, 0x02, 0x0C, 0x70,
@@ -84,6 +65,7 @@ const uint8_t SineBytemap[] = {
         0x01, 0x00
 };
 
+// Square wave bytemap
 const uint8_t SquareBytemap[] = {
 
         0x00, 0xFF, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01,
@@ -95,6 +77,7 @@ const uint8_t SquareBytemap[] = {
         0x00
 };
 
+// Sawtooth wave bytemap
 const uint8_t SawtoothBytemap[] = {
 
         0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x80,
@@ -106,6 +89,7 @@ const uint8_t SawtoothBytemap[] = {
         0x00
 };
 
+// Triangle wave bytemap
 const uint8_t TriangleBytemap[] = {
 
         0x00, 0x80, 0x60, 0x18, 0x06, 0x01, 0x06, 0x18, 0x60, 0x80,
@@ -152,30 +136,11 @@ void LCD_SetCursor(uint8_t row, uint8_t column)
     LCD_SendCommand(SET_Y_ADDR | row);
 }
 
-void LCD_FillRow(uint8_t row, uint8_t column, uint8_t length)
-{
-    LCD_SetCursor(row, column);
-    for(uint8_t index = 0; index < length; ++index)
-    {
-        LCD_SendData(0xff);
-    }
-}
-
-void LCD_ClearRow(uint8_t row, uint8_t column, uint8_t length)
-{
-    LCD_SetCursor(row, column);
-    for(uint8_t index = 0; index < length; ++index)
-    {
-        LCD_SendData(0x00);
-    }
-}
-
-
 void LCD_SendFrame()
 {
-    for(size_t index = 0; index < sizeof(screen.frame); ++index)
+    for(size_t index = 0; index < sizeof(bytemap); ++index)
     {
-        LCD_SendData(*(*(screen.frame) + index));
+        LCD_SendData(*(bytemap + index));
     }
 }
 
@@ -206,8 +171,6 @@ void LCD_InverseSine(void)
         LCD_SendData((uint8_t) ~SineBytemap[index]);
     }
 }
-
-
 
 void LCD_DrawSquare(void)
 {
@@ -293,7 +256,6 @@ void LCD_InverseTriangle(void)
     }
 }
 
-
 bool LCD_Init(void)
 {
     __GPIOA_CLK_ENABLE();
@@ -308,12 +270,14 @@ bool LCD_Init(void)
 
     HAL_GPIO_Init(LCD_GPIO, &gpio);
 
+    //Initializes SPI1 for oneway communication with LCD
     if(false == SPI1_Init())
     {
         UART_WriteString("LCD init failed\n\r");
         return false;
     }
 
+    // Quick reset of LCD screen
     HAL_GPIO_WritePin(LCD_GPIO, RST_PIN, GPIO_PIN_RESET);
     HAL_GPIO_WritePin(LCD_GPIO, RST_PIN, GPIO_PIN_SET);
 
@@ -329,12 +293,8 @@ bool LCD_Init(void)
 
     LCD_SendCommand(DISPLAY_CONTROL | DISPLAY_NORM);
 
-
-    memcpy(screen.frame, bytemap, sizeof(bytemap));
+    // Sends default bytemap to LCD
     LCD_SendFrame();
-//    LCD_InverseSine();
-//    LCD_InverseSquare();
-//    LCD_InverseSawtooth();
-//    LCD_InverseTriangle();
+
     return true;
 }

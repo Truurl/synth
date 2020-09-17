@@ -41,20 +41,6 @@ bool UART_PutChar(char c)
 
 size_t UART_WriteData(const void* data, size_t dataSize)
 {
-//    size_t i = 0;
-//    for (; i<dataSize; i++)
-//    {
-//        if (RingBuffer_PutChar(&UART_RingBuffer_Tx, ((char *) data)[i]))
-//        {
-//
-//        }__HAL_UART_ENABLE_IT(&uart, UART_IT_TXE);
-//        else
-//        {
-//            return i;
-//        }
-//    }
-//    return i;
-
 	size_t i = 0;
 	for (; i<dataSize; i++)
 	{
